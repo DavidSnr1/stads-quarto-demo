@@ -63,20 +63,3 @@ print(df)
 :::
 
 :::
-
-## Workflow mit Mermaid.js
-
-Quarto integriert Mermaid.js für die Erstellung von Diagrammen direkt aus Text. Hier ein Flussdiagramm, das den typischen Workflow für eine Quarto-Website zeigt:
-
-```mermaid
-graph TD;
-    A[Idee] --> B[Markdown schreiben];
-    B --> C[Quarto Render];
-    C --> D[Git Commit];
-    D --> E[Git Push];
-    E --> F[GitHub Actions];
-    F --> G[Live Website];
-```
-
-Dieses Diagramm besteht komplett aus Text und ist daher einfach in Git versionierbar, im Gegensatz zu Bilddateien.
-
