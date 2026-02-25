@@ -30,15 +30,15 @@
   {
     "objectID": "python-kurs/lektion1.html",
     "href": "python-kurs/lektion1.html",
-    "title": "Studentische Initiative",
+    "title": "Python Lektion",
     "section": "",
-    "text": "In diesem Kurs verwenden wir Quarto, weil es uns erlaubt, Theorie und Praxis nahtlos zu verbinden. Hier sind drei Funktionen, die dein Lernerlebnis verbessern:\n\n\nAnstatt nur Screenshots von Code zu zeigen, betten wir echten Python-Code ein. Quarto führt diesen Code beim Erstellen der Seite aus und zeigt das Ergebnis direkt darunter an.\n#| label: beispiel-grafik #| fig-cap: “Eine live generierte Sinuskurve mit Python”\nimport matplotlib.pyplot as plt import numpy as np\nx = np.linspace(0, 10, 100) y = np.sin(x)\nplt.plot(x, y, color=‘#0056B3’) # Unser STADS-Blau! plt.title(“Live aus dem Python-Kernel”) plt.grid(True) plt.show()"
+    "text": "In diesem Kurs verwenden wir Quarto, weil es uns erlaubt, Theorie und Praxis nahtlos zu verbinden. Hier sind drei Funktionen, die dein Lernerlebnis verbessern:\n\n\nAnstatt nur Screenshots von Code zu zeigen, betten wir echten Python-Code ein. Quarto führt diesen Code beim Erstellen der Seite aus und zeigt das Ergebnis direkt darunter an.\nHier ist mein Text.\nimport matplotlib.pyplot as plt import numpy as np\nx = np.linspace(0, 10, 100) y = np.sin(x)\nplt.plot(x, y) plt.show()"
   },
   {
     "objectID": "python-kurs/lektion1.html#warum-wir-quarto-für-python-nutzen",
     "href": "python-kurs/lektion1.html#warum-wir-quarto-für-python-nutzen",
-    "title": "Studentische Initiative",
+    "title": "Python Lektion",
     "section": "",
-    "text": "In diesem Kurs verwenden wir Quarto, weil es uns erlaubt, Theorie und Praxis nahtlos zu verbinden. Hier sind drei Funktionen, die dein Lernerlebnis verbessern:\n\n\nAnstatt nur Screenshots von Code zu zeigen, betten wir echten Python-Code ein. Quarto führt diesen Code beim Erstellen der Seite aus und zeigt das Ergebnis direkt darunter an.\n#| label: beispiel-grafik #| fig-cap: “Eine live generierte Sinuskurve mit Python”\nimport matplotlib.pyplot as plt import numpy as np\nx = np.linspace(0, 10, 100) y = np.sin(x)\nplt.plot(x, y, color=‘#0056B3’) # Unser STADS-Blau! plt.title(“Live aus dem Python-Kernel”) plt.grid(True) plt.show()"
+    "text": "In diesem Kurs verwenden wir Quarto, weil es uns erlaubt, Theorie und Praxis nahtlos zu verbinden. Hier sind drei Funktionen, die dein Lernerlebnis verbessern:\n\n\nAnstatt nur Screenshots von Code zu zeigen, betten wir echten Python-Code ein. Quarto führt diesen Code beim Erstellen der Seite aus und zeigt das Ergebnis direkt darunter an.\nHier ist mein Text.\nimport matplotlib.pyplot as plt import numpy as np\nx = np.linspace(0, 10, 100) y = np.sin(x)\nplt.plot(x, y) plt.show()"
   }
 ]
