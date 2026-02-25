@@ -3,6 +3,7 @@ project:
 
 website:
   title: "Studentische Initiative"
+  logo: /images/stads-logo.png
   navbar:
     left:
       - href: index.qmd
@@ -11,3 +12,8 @@ website:
         text: Python Kurs
       - href: vibecoding-kurs/lektion1.qmd
         text: Vibecoding Kurs
+
+format:
+  html:
+    theme: cosmo
+    css: styles/custom.scss

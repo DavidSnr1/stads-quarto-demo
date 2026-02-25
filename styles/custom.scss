@@ -1,0 +1,32 @@
+/* Import Google Fonts for Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+/* Override Bootstrap variables for STADS-style theme */
+$primary: #0056B3; /* STADS blue accent color */
+$font-family-base: 'Montserrat', sans-serif;
+
+/* Additional custom styles if needed */
+.navbar-brand {
+  font-weight: 600;
+}
+
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+}
+
+.btn-primary:hover {
+  background-color: darken($primary, 10%);
+  border-color: darken($primary, 10%);
+}
+
+a {
+  color: $primary;
+}
+
+a:hover {
+  color: darken($primary, 15%);
+}
+
+/* Ensure the theme is applied */
+@import "bootstrap";
