@@ -1,8 +1,5 @@
----
-title: "Python Lektion"
 execute:
-  freeze: auto  # Quarto nutzt lokal berechnete Ergebnisse, wenn der Code sich nicht geändert hat
----
+  freeze: true
 
 
 ## Vorteile von Markdown für technische Dokumentation
