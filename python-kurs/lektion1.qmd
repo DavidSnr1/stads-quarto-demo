@@ -11,17 +11,14 @@ In diesem Kurs verwenden wir Quarto, weil es uns erlaubt, Theorie und Praxis nah
 ### 1. Echter, lebendiger Code
 Anstatt nur Screenshots von Code zu zeigen, betten wir echten Python-Code ein. Quarto führt diesen Code beim Erstellen der Seite aus und zeigt das Ergebnis direkt darunter an.
 
-```{python}
-#| label: beispiel-grafik
-#| fig-cap: "Eine live generierte Sinuskurve mit Python"
+Hier ist mein Text.
 
+```{python}
 import matplotlib.pyplot as plt
 import numpy as np
 
 x = np.linspace(0, 10, 100)
 y = np.sin(x)
 
-plt.plot(x, y, color='#0056B3') # Unser STADS-Blau!
-plt.title("Live aus dem Python-Kernel")
-plt.grid(True)
+plt.plot(x, y)
 plt.show()
