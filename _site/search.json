@@ -32,13 +32,41 @@
     "href": "python-kurs/lektion1.html",
     "title": "Python Lektion",
     "section": "",
-    "text": "In diesem Kurs verwenden wir Quarto, weil es uns erlaubt, Theorie und Praxis nahtlos zu verbinden. Hier sind drei Funktionen, die dein Lernerlebnis verbessern:\n\n\nAnstatt nur Screenshots von Code zu zeigen, betten wir echten Python-Code ein. Quarto führt diesen Code beim Erstellen der Seite aus und zeigt das Ergebnis direkt darunter an.\nHier ist mein Text.\nimport matplotlib.pyplot as plt import numpy as np\nx = np.linspace(0, 10, 100) y = np.sin(x)\nplt.plot(x, y) plt.show()"
+    "text": "Markdown bietet zahlreiche Vorteile für die Erstellung technischer Dokumentation, insbesondere in Kombination mit Tools wie Quarto. Es ermöglicht eine einfache, textbasierte Formatierung, die sich nahtlos in Entwicklungsworkflows integriert. Im Gegensatz zu WYSIWYG-Editoren wie Word bleibt der Fokus auf dem Inhalt, während die Darstellung automatisch generiert wird. Dies führt zu besserer Lesbarkeit, Portabilität und Zusammenarbeit.\n\n\n\n\n\n\n\n\n\n\nKriterium\nWord\nQuarto\n\n\n\n\nVersionierung\nSchwierig, binäre Dateien\nEinfach mit Git, textbasiert\n\n\nFormelsatz\nKompliziert, eingeschränkt\nEinfach mit LaTeX-Integration\n\n\nLadezeit\nLangsam bei großen Dokumenten\nSchnell, HTML-basiert\n\n\n\n\n\n\nDie Dichtefunktion der Normalverteilung ist gegeben durch:\n\\[ f(x) = \\frac{1}{\\sigma\\sqrt{2\\pi}} e^{-\\frac{1}{2}\\left(\\frac{x-\\mu}{\\sigma}\\right)^2} \\]\nDiese Formel zeigt, wie Quarto komplexe Mathematik sauber rendert1.\n\n“Markdown ist das Schweizer Taschenmesser für technische Schreiber.” – Anonymer Entwickler"
   },
   {
     "objectID": "python-kurs/lektion1.html#warum-wir-quarto-für-python-nutzen",
     "href": "python-kurs/lektion1.html#warum-wir-quarto-für-python-nutzen",
     "title": "Python Lektion",
     "section": "",
-    "text": "In diesem Kurs verwenden wir Quarto, weil es uns erlaubt, Theorie und Praxis nahtlos zu verbinden. Hier sind drei Funktionen, die dein Lernerlebnis verbessern:\n\n\nAnstatt nur Screenshots von Code zu zeigen, betten wir echten Python-Code ein. Quarto führt diesen Code beim Erstellen der Seite aus und zeigt das Ergebnis direkt darunter an.\nHier ist mein Text.\nimport matplotlib.pyplot as plt import numpy as np\nx = np.linspace(0, 10, 100) y = np.sin(x)\nplt.plot(x, y) plt.show()"
+    "text": "In diesem Kurs verwenden wir Quarto, weil es uns erlaubt, Theorie und Praxis nahtlos zu verbinden. Hier sind drei Funktionen, die dein Lernerlebnis verbessern:\n\n\nAnstatt nur Screenshots von Code zu zeigen, betten wir echten Python-Code ein. Quarto führt diesen Code beim Erstellen der Seite aus und zeigt das Ergebnis direkt darunter an.\nHier ist mein Text."
+  },
+  {
+    "objectID": "python-kurs/lektion1.html#vorteile-von-markdown-für-technische-dokumentation",
+    "href": "python-kurs/lektion1.html#vorteile-von-markdown-für-technische-dokumentation",
+    "title": "Python Lektion",
+    "section": "",
+    "text": "Markdown bietet zahlreiche Vorteile für die Erstellung technischer Dokumentation, insbesondere in Kombination mit Tools wie Quarto. Es ermöglicht eine einfache, textbasierte Formatierung, die sich nahtlos in Entwicklungsworkflows integriert. Im Gegensatz zu WYSIWYG-Editoren wie Word bleibt der Fokus auf dem Inhalt, während die Darstellung automatisch generiert wird. Dies führt zu besserer Lesbarkeit, Portabilität und Zusammenarbeit.\n\n\n\n\n\n\n\n\n\n\nKriterium\nWord\nQuarto\n\n\n\n\nVersionierung\nSchwierig, binäre Dateien\nEinfach mit Git, textbasiert\n\n\nFormelsatz\nKompliziert, eingeschränkt\nEinfach mit LaTeX-Integration\n\n\nLadezeit\nLangsam bei großen Dokumenten\nSchnell, HTML-basiert\n\n\n\n\n\n\nDie Dichtefunktion der Normalverteilung ist gegeben durch:\n\\[ f(x) = \\frac{1}{\\sigma\\sqrt{2\\pi}} e^{-\\frac{1}{2}\\left(\\frac{x-\\mu}{\\sigma}\\right)^2} \\]\nDiese Formel zeigt, wie Quarto komplexe Mathematik sauber rendert1.\n\n“Markdown ist das Schweizer Taschenmesser für technische Schreiber.” – Anonymer Entwickler"
+  },
+  {
+    "objectID": "python-kurs/lektion1.html#footnotes",
+    "href": "python-kurs/lektion1.html#footnotes",
+    "title": "Python Lektion",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nLaTeX-Formeln werden in Quarto automatisch mit MathJax gerendert.↩︎"
+  },
+  {
+    "objectID": "python-kurs/lektion1.html#interaktive-tabs-in-quarto",
+    "href": "python-kurs/lektion1.html#interaktive-tabs-in-quarto",
+    "title": "Python Lektion",
+    "section": "Interaktive Tabs in Quarto",
+    "text": "Interaktive Tabs in Quarto\nQuarto ermöglicht es, Informationen platzsparend mit Panel-Tabs zu organisieren. Hier ein Beispiel, das Code, Erklärung und Tipps in einem kompakten Format präsentiert.\n\nPython CodeErklärungVibecoding Tipp\n\n\n\nimport pandas as pd\n\n# Erstelle einen einfachen DataFrame\ndata = {'Name': ['Alice', 'Bob', 'Charlie'], 'Alter': [25, 30, 35]}\ndf = pd.DataFrame(data)\n\n# Zeige den DataFrame an\nprint(df)\n\n      Name  Alter\n0    Alice     25\n1      Bob     30\n2  Charlie     35\n\n\n\n\n\nImport von Pandas: Wir importieren die Bibliothek pandas, um mit Daten zu arbeiten.\nDaten erstellen: Ein Dictionary mit Namen und Altern wird definiert.\nDataFrame erstellen: Der DataFrame wird aus dem Dictionary generiert.\nAusgabe: Der DataFrame wird mit print() angezeigt, was in Quarto automatisch gerendert wird.\n\n\n\n\n\n\n\n\n\nTipKI-Prompt für Datenanalyse\n\n\n\n“Analysiere diesen Pandas-DataFrame und schlage Visualisierungen vor: [füge DataFrame-Code ein]. Verwende Matplotlib für Plots und erkläre die Schritte.”"
+  },
+  {
+    "objectID": "python-kurs/lektion1.html#workflow-mit-mermaid.js",
+    "href": "python-kurs/lektion1.html#workflow-mit-mermaid.js",
+    "title": "Python Lektion",
+    "section": "Workflow mit Mermaid.js",
+    "text": "Workflow mit Mermaid.js\nQuarto integriert Mermaid.js für die Erstellung von Diagrammen direkt aus Text. Hier ein Flussdiagramm, das den typischen Workflow für eine Quarto-Website zeigt:\ngraph TD;\n    A[Idee] --&gt; B[Markdown schreiben];\n    B --&gt; C[Quarto Render];\n    C --&gt; D[Git Commit];\n    D --&gt; E[Git Push];\n    E --&gt; F[GitHub Actions];\n    F --&gt; G[Live Website];\nDieses Diagramm besteht komplett aus Text und ist daher einfach in Git versionierbar, im Gegensatz zu Bilddateien."
   }
 ]

@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -69,6 +104,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles/custom.scss">
 </head>
@@ -140,22 +204,125 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="warum-wir-quarto-für-python-nutzen" class="level2">
-<h2 class="anchored" data-anchor-id="warum-wir-quarto-für-python-nutzen">Warum wir Quarto für Python nutzen</h2>
-<p>In diesem Kurs verwenden wir Quarto, weil es uns erlaubt, Theorie und Praxis nahtlos zu verbinden. Hier sind drei Funktionen, die dein Lernerlebnis verbessern:</p>
-<section id="echter-lebendiger-code" class="level3">
-<h3 class="anchored" data-anchor-id="echter-lebendiger-code">1. Echter, lebendiger Code</h3>
-<p>Anstatt nur Screenshots von Code zu zeigen, betten wir echten Python-Code ein. Quarto führt diesen Code beim Erstellen der Seite aus und zeigt das Ergebnis direkt darunter an.</p>
-<p>Hier ist mein Text.</p>
-<p>import matplotlib.pyplot as plt import numpy as np</p>
-<p>x = np.linspace(0, 10, 100) y = np.sin(x)</p>
-<p>plt.plot(x, y) plt.show()</p>
+<section id="vorteile-von-markdown-für-technische-dokumentation" class="level2">
+<h2 class="anchored" data-anchor-id="vorteile-von-markdown-für-technische-dokumentation">Vorteile von Markdown für technische Dokumentation</h2>
+<p>Markdown bietet zahlreiche Vorteile für die Erstellung technischer Dokumentation, insbesondere in Kombination mit Tools wie Quarto. Es ermöglicht eine einfache, textbasierte Formatierung, die sich nahtlos in Entwicklungsworkflows integriert. Im Gegensatz zu WYSIWYG-Editoren wie Word bleibt der Fokus auf dem Inhalt, während die Darstellung automatisch generiert wird. Dies führt zu besserer Lesbarkeit, Portabilität und Zusammenarbeit.</p>
+<section id="vergleich-word-vs.-quarto" class="level3">
+<h3 class="anchored" data-anchor-id="vergleich-word-vs.-quarto">Vergleich: Word vs.&nbsp;Quarto</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 19%">
+<col style="width: 40%">
+<col style="width: 40%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Kriterium</th>
+<th>Word</th>
+<th>Quarto</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Versionierung</td>
+<td>Schwierig, binäre Dateien</td>
+<td>Einfach mit Git, textbasiert</td>
+</tr>
+<tr class="even">
+<td>Formelsatz</td>
+<td>Kompliziert, eingeschränkt</td>
+<td>Einfach mit LaTeX-Integration</td>
+</tr>
+<tr class="odd">
+<td>Ladezeit</td>
+<td>Langsam bei großen Dokumenten</td>
+<td>Schnell, HTML-basiert</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="mathematische-formel-normalverteilung" class="level3">
+<h3 class="anchored" data-anchor-id="mathematische-formel-normalverteilung">Mathematische Formel: Normalverteilung</h3>
+<p>Die Dichtefunktion der Normalverteilung ist gegeben durch:</p>
+<p><span class="math display">\[ f(x) = \frac{1}{\sigma\sqrt{2\pi}} e^{-\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2} \]</span></p>
+<p>Diese Formel zeigt, wie Quarto komplexe Mathematik sauber rendert<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
+<blockquote class="blockquote">
+<p>“Markdown ist das Schweizer Taschenmesser für technische Schreiber.” – Anonymer Entwickler</p>
+</blockquote>
+</section>
+</section>
+<section id="interaktive-tabs-in-quarto" class="level2">
+<h2 class="anchored" data-anchor-id="interaktive-tabs-in-quarto">Interaktive Tabs in Quarto</h2>
+<p>Quarto ermöglicht es, Informationen platzsparend mit Panel-Tabs zu organisieren. Hier ein Beispiel, das Code, Erklärung und Tipps in einem kompakten Format präsentiert.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Python Code</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Erklärung</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Vibecoding Tipp</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<div id="7a134520" class="cell" data-execution_count="1">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Erstelle einen einfachen DataFrame</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> {<span class="st">'Name'</span>: [<span class="st">'Alice'</span>, <span class="st">'Bob'</span>, <span class="st">'Charlie'</span>], <span class="st">'Alter'</span>: [<span class="dv">25</span>, <span class="dv">30</span>, <span class="dv">35</span>]}</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.DataFrame(data)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Zeige den DataFrame an</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>      Name  Alter
+0    Alice     25
+1      Bob     30
+2  Charlie     35</code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<ol type="1">
+<li><strong>Import von Pandas</strong>: Wir importieren die Bibliothek pandas, um mit Daten zu arbeiten.</li>
+<li><strong>Daten erstellen</strong>: Ein Dictionary mit Namen und Altern wird definiert.</li>
+<li><strong>DataFrame erstellen</strong>: Der DataFrame wird aus dem Dictionary generiert.</li>
+<li><strong>Ausgabe</strong>: Der DataFrame wird mit <code>print()</code> angezeigt, was in Quarto automatisch gerendert wird.</li>
+</ol>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>KI-Prompt für Datenanalyse
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>“Analysiere diesen Pandas-DataFrame und schlage Visualisierungen vor: [füge DataFrame-Code ein]. Verwende Matplotlib für Plots und erkläre die Schritte.”</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="workflow-mit-mermaid.js" class="level2">
+<h2 class="anchored" data-anchor-id="workflow-mit-mermaid.js">Workflow mit Mermaid.js</h2>
+<p>Quarto integriert Mermaid.js für die Erstellung von Diagrammen direkt aus Text. Hier ein Flussdiagramm, das den typischen Workflow für eine Quarto-Website zeigt:</p>
+<pre class="mermaid"><code>graph TD;
+    A[Idee] --&gt; B[Markdown schreiben];
+    B --&gt; C[Quarto Render];
+    C --&gt; D[Git Commit];
+    D --&gt; E[Git Push];
+    E --&gt; F[GitHub Actions];
+    F --&gt; G[Live Website];</code></pre>
+<p>Dieses Diagramm besteht komplett aus Text und ist daher einfach in Git versionierbar, im Gegensatz zu Bilddateien.</p>
 
 
 </section>
-</section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>LaTeX-Formeln werden in Quarto automatisch mit MathJax gerendert.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
