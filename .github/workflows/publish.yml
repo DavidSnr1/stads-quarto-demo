@@ -2,7 +2,7 @@ name: Deploy Quarto Website
 
 on:
   push:
-    branches: [ main ] # Jedes Mal, wenn du Code hochlädst
+    branches: [ main ]
 
 jobs:
   build-deploy:
@@ -14,6 +14,16 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+
+      # NEU: Python installieren
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      # NEU: Bibliotheken installieren
+      - name: Install dependencies
+        run: pip install -r requirements.txt
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
