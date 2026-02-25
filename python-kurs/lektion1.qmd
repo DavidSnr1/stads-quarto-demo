@@ -1,3 +1,9 @@
+---
+title: "Python Lektion"
+execute:
+  freeze: auto  # Quarto nutzt lokal berechnete Ergebnisse, wenn der Code sich nicht geändert hat
+---
+
 ## Warum wir Quarto für Python nutzen
 
 In diesem Kurs verwenden wir Quarto, weil es uns erlaubt, Theorie und Praxis nahtlos zu verbinden. Hier sind drei Funktionen, die dein Lernerlebnis verbessern:
