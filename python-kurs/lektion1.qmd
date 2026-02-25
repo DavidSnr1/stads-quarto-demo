@@ -1,0 +1,19 @@
+---
+title: "Lektion 1: Einführung in Python"
+---
+
+# Einführung in Python
+
+Willkommen zur ersten Lektion des Python Kurses!
+
+## Was ist Python?
+
+Python ist eine vielseitige Programmiersprache, die einfach zu erlernen ist.
+
+### Beispiel Code
+
+```python
+print("Hallo Welt!")
+```
+
+Weitere Lektionen folgen bald!

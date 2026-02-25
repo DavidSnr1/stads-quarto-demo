@@ -1,0 +1,14 @@
+---
+title: "Willkommen bei der Studentischen Initiative"
+---
+
+# Herzlich Willkommen!
+
+Dies ist die Startseite unserer studentischen Initiative. Hier finden Sie Informationen zu unseren Kursen und Aktivitäten.
+
+## Kurse
+
+- [Python Kurs](python-kurs/lektion1.qmd)
+- [Vibecoding Kurs](vibecoding-kurs/lektion1.qmd)
+
+Bleiben Sie dran für mehr Inhalte!

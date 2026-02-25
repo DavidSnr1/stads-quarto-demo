@@ -1,0 +1,13 @@
+project:
+  type: website
+
+website:
+  title: "Studentische Initiative"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: python-kurs/lektion1.qmd
+        text: Python Kurs
+      - href: vibecoding-kurs/lektion1.qmd
+        text: Vibecoding Kurs
