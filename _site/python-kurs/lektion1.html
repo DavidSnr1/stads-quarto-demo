@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Lektion 1: Einführung in Python – Studentische Initiative</title>
+<title>lektion1 – Studentische Initiative</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,41 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -75,7 +40,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-1d4f84655f446305ac42a8f1abcf7405.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -105,6 +70,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }</script>
 
 
+<link rel="stylesheet" href="../styles/custom.scss">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -114,6 +80,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../images/stads-logo.png" alt="" class="navbar-logo light-content">
+    <img src="../images/stads-logo.png" alt="" class="navbar-logo dark-content">
+    </a>
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Studentische Initiative</span>
     </a>
@@ -149,40 +119,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Lektion 1: Einführung in Python</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<section id="einführung-in-python" class="level1">
-<h1>Einführung in Python</h1>
-<p>Willkommen zur ersten Lektion des Python Kurses!</p>
-<section id="was-ist-python" class="level2">
-<h2 class="anchored" data-anchor-id="was-ist-python">Was ist Python?</h2>
-<p>Python ist eine vielseitige Programmiersprache, die einfach zu erlernen ist.</p>
-<section id="beispiel-code" class="level3">
-<h3 class="anchored" data-anchor-id="beispiel-code">Beispiel Code</h3>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Hallo Welt!"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>Weitere Lektionen folgen bald!</p>
+<section id="warum-wir-quarto-für-python-nutzen" class="level2">
+<h2 class="anchored" data-anchor-id="warum-wir-quarto-für-python-nutzen">Warum wir Quarto für Python nutzen</h2>
+<p>In diesem Kurs verwenden wir Quarto, weil es uns erlaubt, Theorie und Praxis nahtlos zu verbinden. Hier sind drei Funktionen, die dein Lernerlebnis verbessern:</p>
+<section id="echter-lebendiger-code" class="level3">
+<h3 class="anchored" data-anchor-id="echter-lebendiger-code">1. Echter, lebendiger Code</h3>
+<p>Anstatt nur Screenshots von Code zu zeigen, betten wir echten Python-Code ein. Quarto führt diesen Code beim Erstellen der Seite aus und zeigt das Ergebnis direkt darunter an.</p>
+<p>#| label: beispiel-grafik #| fig-cap: “Eine live generierte Sinuskurve mit Python”</p>
+<p>import matplotlib.pyplot as plt import numpy as np</p>
+<p>x = np.linspace(0, 10, 100) y = np.sin(x)</p>
+<p>plt.plot(x, y, color=‘#0056B3’) # Unser STADS-Blau! plt.title(“Live aus dem Python-Kernel”) plt.grid(True) plt.show()</p>
 
 
-</section>
 </section>
 </section>
 

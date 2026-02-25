@@ -1,19 +1,21 @@
----
-title: "Lektion 1: Einführung in Python"
----
+## Warum wir Quarto für Python nutzen
 
-# Einführung in Python
+In diesem Kurs verwenden wir Quarto, weil es uns erlaubt, Theorie und Praxis nahtlos zu verbinden. Hier sind drei Funktionen, die dein Lernerlebnis verbessern:
 
-Willkommen zur ersten Lektion des Python Kurses!
+### 1. Echter, lebendiger Code
+Anstatt nur Screenshots von Code zu zeigen, betten wir echten Python-Code ein. Quarto führt diesen Code beim Erstellen der Seite aus und zeigt das Ergebnis direkt darunter an.
 
-## Was ist Python?
+```{python}
+#| label: beispiel-grafik
+#| fig-cap: "Eine live generierte Sinuskurve mit Python"
 
-Python ist eine vielseitige Programmiersprache, die einfach zu erlernen ist.
+import matplotlib.pyplot as plt
+import numpy as np
 
-### Beispiel Code
+x = np.linspace(0, 10, 100)
+y = np.sin(x)
 
-```python
-print("Hallo Welt!")
-```
-
-Weitere Lektionen folgen bald!
+plt.plot(x, y, color='#0056B3') # Unser STADS-Blau!
+plt.title("Live aus dem Python-Kernel")
+plt.grid(True)
+plt.show()
