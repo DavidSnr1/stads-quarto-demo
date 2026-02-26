@@ -1,0 +1,51 @@
+---
+title: "Week 2: Live Coding Sessions"
+toc: true
+toc-depth: 3
+page-layout: full
+---
+
+<br>
+
+::: {.d-flex .gap-2}
+[🏠 Home](../../index.qmd){.btn .btn-outline-secondary .btn-sm}
+[🎵 Vibecoding Overview](../index.qmd){.btn .btn-outline-secondary .btn-sm}
+:::
+
+<br>
+
+# 🎬 Week 2: Live Coding Sessions
+*Echte Musik live coden — Techniken und Performance.*
+
+<br>
+
+## 📺 Was ist Live Coding?
+
+Live Coding ist die Praxis, Code während einer Performance zu schreiben und zu ändern, um Sound und Musik in Echtzeit zu generieren.
+
+### Vorteile
+- **Kreativität in Echtzeit** – Spontane musikalische Entscheidungen
+- **Transparenz** – Publikum sieht den Code und den Sound-Output
+- **Experiment** – Schnelle Iteration und Exploration
+- **Künstlerischer Ausdruck** – Code als Performance-Medium
+
+<br>
+<hr>
+<br>
+
+## 🎵 Live Coding Tools
+
+::: {layout-ncol=2}
+### Populäre Frameworks
+* [Sonic Pi](https://sonic-pi.net/) – einsteigerfreundlich
+* [SuperCollider](https://supercollider.github.io/) – mächtig
+* [TidalCycles](https://tidalcycles.org/) – Pattern-basiert
+* [Pure Data (Pd)](https://puredata.info/) – visuell
+
+### Einsatzgebiete
+* Elektronische Live-Musik
+* Audio-Visualisierung
+* Installations-Art
+* Experimentelle Performances
+:::
+

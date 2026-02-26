@@ -1,0 +1,49 @@
+---
+title: "Week 3: AI & Creative Tools"
+toc: true
+toc-depth: 3
+page-layout: full
+---
+
+<br>
+
+::: {.d-flex .gap-2}
+[🏠 Home](../../index.qmd){.btn .btn-outline-secondary .btn-sm}
+[🎵 Vibecoding Overview](../index.qmd){.btn .btn-outline-secondary .btn-sm}
+:::
+
+<br>
+
+# 🤖 Week 3: AI & Creative Tools
+*Künstliche Intelligenz für Musik und Sound-Design.*
+
+<br>
+
+## 🎵 AI in der Musikproduktion
+
+Künstliche Intelligenz eröffnet neue Möglichkeiten für:
+- **Musik-Generierung** – Automatische Komposition
+- **Sound-Synthese** – Neue Klang-Welten
+- **Stil-Transfer** – Songs im Stil von Künstlern
+- **Lyriks & Harmonien** – Assistierte Songwriting
+
+### Beliebte AI-Tools
+- [OpenAI Jukebox](https://openai.com/research/jukebox) – Musik-Generierung
+- [AIVA](https://www.aiva.ai/) – Komponist-Assistent
+- [Google Magenta](https://magenta.tensorflow.org/) – Research & Tools
+- [RunwayML](https://runwayml.com/) – Kreative AI-Suite
+
+<br>
+<hr>
+<br>
+
+## 🔮 Ethische Fragen
+
+::: {.callout-note}
+**Wichtig:** Bei der Nutzung von AI in kreativen Projekten sollten wir überlegen:
+- Urheberrecht und Attribution
+- Authentizität und künstlerischer Ausdruck
+- Datenschutz und Trainings-Daten
+- Impact auf Kreative und Künstler
+:::
+

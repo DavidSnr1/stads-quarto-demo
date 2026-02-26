@@ -1,0 +1,74 @@
+---
+title: "Week 1: Vibecoding Basics"
+toc: true
+toc-depth: 3
+page-layout: full
+---
+
+<br>
+
+::: {.d-flex .gap-2}
+[🏠 Home](../../index.qmd){.btn .btn-outline-secondary .btn-sm}
+[🎵 Vibecoding Overview](../index.qmd){.btn .btn-outline-secondary .btn-sm}
+:::
+
+<br>
+
+# 🎵 Week 1: Vibecoding Basics
+*Deine Reise in die kreative Audio-Programmierung.*
+
+<br>
+
+## 🎧 Learning Curriculum
+*Erforsche die Grundlagen von Vibecoding und Live-Coding mit Sound.*
+
+::: {layout-ncol=2}
+### Fundamentals
+* [🎼 **Sound Basics**](https://en.wikipedia.org/wiki/Sound)
+* [💻 **Live Coding Einführung**](https://en.wikipedia.org/wiki/Live_coding)
+* [🎹 **MIDI & Audio Protokolle**](https://en.wikipedia.org/wiki/MIDI)
+* [🔊 **Audio Processing**](https://en.wikipedia.org/wiki/Audio_signal_processing)
+
+### Tools & Technologien
+* [🐍 **SuperCollider**](https://supercollider.github.io/)
+* [🔧 **Pure Data (Pd)**](https://puredata.info/)
+* [🎼 **Sonic Pi**](https://sonic-pi.net/)
+* [🤖 **AI & Musik Generation**](https://openai.com/research/jukebox)
+:::
+
+<br>
+<hr>
+<br>
+
+## 🎸 Project 1: Einfacher Synthesizer
+
+::: {.panel-tabset}
+
+### 📝 Die Aufgabe
+Erstelle einen einfachen Synthesizer, der Audiofrequenzen generiert.
+
+1. Verstehe die Grundlagen von Frequenzen und Wellenlängen.
+2. Implementiere einen simplen Sinus-Wellen-Generator.
+3. Füge interaktive Steuerung (Frequenz, Lautstärke) hinzu.
+4. Experimentiere mit verschiedenen Wellenformen.
+
+### 💡 Konzept
+Ein Synthesizer ist ein elektronisches Gerät, das Sound durch:
+- **Oszillatoren** (Ton-Generierung)
+- **Filter** (Klangformung)
+- **Hüllung** (Lautstärke-Kurven)
+
+erzeugt.
+
+### 🔊 Sonicpi-Beispiel
+```ruby
+live_loop :basic_synth do
+  frequency = rrand(100, 500)
+  use_synth :square
+  play frequency, amp: 0.5, release: 0.3
+  sleep 1
+end
+```
+
+:::
+

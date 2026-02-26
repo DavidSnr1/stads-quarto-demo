@@ -2,27 +2,25 @@ project:
   type: website
 
 website:
-  title: "STADS Education"
-  search: true
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - text: Kurse
-        menu:
-          - text: Python
-            href: python/index.qmd
-          - text: Vibecoding
-            href: vibecoding/index.qmd
-    right:
-      - href: contact.qmd
-        text: Contact
-  # Note: Footer rendered in site layout or index.qmd; custom HTML footers can be added in templates if needed
+  title: "Courses"
+  sidebar:
+    - id: sidebar
+      title: "Courses"
+      style: "docked"
+      contents:
+        - python/index.qmd
+        - section: "Weeks"
+          contents:
+            - python/01_basics1.qmd
+            - python/02_basics2.qmd
+        - vibecoding/index.qmd
+        - section: "Weeks"
+          contents:
+            - vibecoding/01_intro.qmd
+            - vibecoding/02_live_coding.qmd
+            - vibecoding/03_ai_tools.qmd
 
 format:
   html:
     theme: cosmo
-    css: styles/custom.scss
-
-execute:
-  freeze: true
+    

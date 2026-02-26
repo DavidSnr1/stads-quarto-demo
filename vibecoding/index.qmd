@@ -1,9 +1,18 @@
 ---
 title: "Vibecoding"
-execute:
-  freeze: true
+subtitle: "From Zero to Data Hero"
+layout: full
+listing:
+  contents: 
+    - "01_intro.qmd"
+    - "02_live_coding.qmd"
+    - "03_ai_tools.qmd"
+  type: grid           
+  sort: "filename"     
+  categories: false
 ---
 
-# Vibecoding
 
-(Seite in Bearbeitung)
+Entdecke die kreative Schnittstelle zwischen Musik, Code und Künstlicher Intelligenz. Vibecoding kombiniert Live-Coding-Sessions mit musikalischen Experimenten und modernen AI-Tools.
+
+

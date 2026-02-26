@@ -1,0 +1,61 @@
+---
+title: ""
+toc: true
+toc-depth: 3
+page-layout: full
+---
+
+<br>
+
+::: {.d-flex .gap-2}
+[🏠 Home](../../index.qmd){.btn .btn-outline-secondary .btn-sm}
+[🐍 Python Overview](../index.qmd){.btn .btn-outline-secondary .btn-sm}
+:::
+
+# Week 2: Python Basics II
+*The foundation of your Python journey.*
+
+::: {layout-ncol=1}
+### (Fundamentals)
+* [🐍 **Python Syntax**](https://www.w3schools.com/python/python_syntax.asp)
+* [💬 **Python Comments**](https://www.w3schools.com/python/python_comments.asp)
+* [📦 **Python Variables**](https://www.w3schools.com/python/python_variables.asp)
+* [🔢 **Python Data Types**](https://www.w3schools.com/python/python_datatypes.asp)
+* [📊 **Python Numbers**](https://www.w3schools.com/python/python_numbers.asp)
+* [🔄 **Python Casting**](https://www.w3schools.com/python/python_casting.asp)
+* [🔤 **Python Strings**](https://www.w3schools.com/python/python_strings.asp)
+* [⌨️ **Python User Input**](https://www.w3schools.com/python/python_user_input.asp)
+::: 
+
+<br>
+
+## 🎸 Project 1: Band Name Generator
+
+::: {.panel-tabset}
+
+### 📝 Die Aufgabe
+Erstelle einen Bandnamen-Generator, der Benutzereingaben verarbeitet.
+
+1. Erstelle eine Begrüßung für dein Programm.
+2. Frage den Nutzer nach der Stadt, in der er aufgewachsen ist.
+3. Frage den Nutzer nach dem Namen seines ersten Haustiers.
+4. Kombiniere die Namen der Stadt und des Haustiers und zeige ihnen ihren Bandnamen an.
+
+### 💡 Die Lösung
+```python
+print("Welcome to the Band Name Generator.")
+city = input("What's the name of the city you grew up in?\n")
+pet = input("What's your pet's name?\n")
+print("Your band name could be " + city + " " + pet)
+```
+
+:::
+
+## 📥 Material
+
+::: {layout-ncol=2}
+[📽️ Introductory Slides](slides/week1_intro.pdf){.btn .btn-outline-primary .btn-lg .w-100}
+
+[🔗 w3schools Tutorial](https://www.w3schools.com/python/){.btn .btn-outline-primary .btn-lg .w-100}
+:::
+

@@ -1,29 +1,15 @@
 ---
-title: "Python Kurs"
-execute:
-  freeze: true
+title: "Python Fundamentals"
+subtitle: "From Zero to Data Hero"
+layout: full
+listing:
+  contents: 
+    - "01_basics1.qmd"
+    - "02_basics2.qmd"
+  type: grid           # Erzeugt schöne Karten für jedes Kapitel
+  sort: "filename"     # Sortiert nach 01, 02...
+  categories: false
 ---
 
-# Python Kurs
-
-::: {.callout-tip}
-:::
-
-::: {.panel-tabset}
-## Aufgabe
-Schreibe eine Funktion, die "Hallo STADS" ausgibt.
-
-## Lösung
-```python
-def greet():
-    print("Hallo STADS")
-:::
-
-:::: {.columns}
-::: {.column}
-Hier ist Text in der Spalte.
-:::
-::: {.column}
-Hier ist Text in der Spalte.
-:::
-::::
+Willkommen beim STADS Python Kurs! Dieser Kurs ist in logische Etappen unterteilt. 
+Wähle unten ein Kapitel aus, um zu starten.
