@@ -1,0 +1,145 @@
+---
+title: "Kapitel 2: Datenstrukturen"
+subtitle: "Listen, Dictionaries und Tuples"
+author: "STADS Team"
+date: "2026-02-26"
+execute:
+  freeze: true
+---
+
+## Datenstrukturen in Python
+
+Datenstrukturen ermöglichen es, mehrere Werte zusammenzufassen und organisiert zu verwalten. Sie sind essentiell für Data Science!
+
+### 1. Listen (Lists)
+
+Listen sind geordnete, veränderbare Sammlungen von Elementen:
+
+```{python}
+# Liste erstellen
+zahlen = [1, 2, 3, 4, 5]
+farben = ["rot", "grün", "blau"]
+gemischt = [1, "zwei", 3.0, True]
+
+# Elemente zugreifen (0-basiert)
+print(f"Erste Farbe: {farben[0]}")
+print(f"Letzte Zahl: {zahlen[-1]}")
+
+# Liste verändern
+farben.append("gelb")
+zahlen.pop()  # Letztes Element entfernen
+
+print(f"Farben nach append: {farben}")
+print(f"Länge der Zahlenliste: {len(zahlen)}")
+```
+
+### 2. Dictionaries (Dicts)
+
+Dictionaries speichern Schlüssel-Wert-Paare und sind ideal für strukturierte Daten:
+
+```{python}
+# Dictionary erstellen
+person = {
+    "name": "Bob",
+    "alter": 30,
+    "stadt": "Berlin",
+    "beruf": "Data Scientist"
+}
+
+# Werte abrufen
+print(f"Name: {person['name']}")
+print(f"Alter: {person['alter']}")
+
+# Wert hinzufügen oder ändern
+person['email'] = 'bob@example.com'
+person['alter'] = 31
+
+print(f"Aktualisierte Person: {person}")
+```
+
+::: {.callout-tip}
+## Tipp: Warum Dictionaries?
+Dictionaries sind perfekt für reale Daten, da sie Kontexte speichern. Eine `[30, "Berlin"]`-Liste ist mehrdeutig, aber `{"alter": 30, "stadt": "Berlin"}` ist selbsterklärend!
+:::
+
+### 3. Tuples (Unveränderbare Sequenzen)
+
+Tuples ähneln Listen, sind aber unveränderbar und effizienter:
+
+```{python}
+# Tuple erstellen
+koordinaten = (52.5200, 13.4050)  # Berlin: Breite, Länge
+rgb_farbe = (255, 0, 0)  # Rot in RGB
+
+# Auf Elemente zugreifen
+print(f"Breitengrad: {koordinaten[0]}")
+print(f"Rot-Wert: {rgb_farbe[0]}")
+
+# Tuple-Unpacking
+breite, laenge = koordinaten
+rot, gruen, blau = rgb_farbe
+print(f"Farbe: R={rot}, G={gruen}, B={blau}")
+```
+
+---
+
+## Praktisches Beispiel: Studentenliste
+
+::: {.panel-tabset}
+
+## 📝 Aufgabe
+
+Erstelle eine Liste von Dictionaries für 3 Studenten mit den Keys: `name`, `matrikelnummer`, `program`.
+
+Gib dann:
+1. Die Namen aller Studenten aus
+2. Die Matrikelnummer des zweiten Studenten
+3. Das Programm des ersten Studenten
+
+## ✅ Lösung
+
+```{python}
+# Liste von Dictionaries
+studenten = [
+    {
+        "name": "Anna Schmidt",
+        "matrikelnummer": 123456,
+        "program": "Data Science"
+    },
+    {
+        "name": "Martin Müller",
+        "matrikelnummer": 123457,
+        "program": "Business Analytics"
+    },
+    {
+        "name": "Sophia Weber",
+        "matrikelnummer": 123458,
+        "program": "Data Science"
+    }
+]
+
+# 1. Namen aller Studenten
+print("Alle Studenten:")
+for student in studenten:
+    print(f"  - {student['name']}")
+
+# 2. Matrikelnummer des zweiten Studenten
+print(f"\nMatrikelnummer von {studenten[1]['name']}: {studenten[1]['matrikelnummer']}")
+
+# 3. Programm des ersten Studenten
+print(f"Programm von {studenten[0]['name']}: {studenten[0]['program']}")
+```
+
+:::
+
+---
+
+## Zusammenfassung
+
+| Datenstruktur | Geordnet | Veränderbar | Best Practice |
+|---|---|---|---|
+| Liste | ✓ | ✓ | Dynamische Sammlungen |
+| Dictionary | ✗ | ✓ | Strukturierte Daten |
+| Tuple | ✓ | ✗ | Konstante Sammlungen |
+
+**Im nächsten Kapitel:** Mit Pandas arbeiten wir mit echten Datensätzen!

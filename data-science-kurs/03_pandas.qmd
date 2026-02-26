@@ -1,0 +1,149 @@
+---
+title: "Kapitel 3: Pandas für Datenanalyse"
+subtitle: "DataFrames, Filtering und Aggregationen"
+author: "STADS Team"
+date: "2026-02-26"
+execute:
+  freeze: true
+---
+
+## Einführung in Pandas
+
+Pandas ist die **Standardbibliothek für Datenanalyse** in Python. Mit DataFrames kannst du tabellarische Daten wie Spreadsheets effizient verarbeiten.
+
+### 1. DataFrames erstellen und erkunden
+
+Ein DataFrame ist eine 2D-Tabelle mit Zeilen und Spalten:
+
+```{python}
+import pandas as pd
+
+# DataFrame aus Dictionary erstellen
+daten = {
+    'Name': ['Alice', 'Bob', 'Charlie', 'Diana'],
+    'Alter': [25, 30, 28, 35],
+    'Stadt': ['Berlin', 'Munich', 'Hamburg', 'Cologne'],
+    'Einkommen': [45000, 52000, 48000, 60000]
+}
+
+df = pd.DataFrame(daten)
+
+# DataFrame anzeigen
+print(df)
+print(f"\nForm: {df.shape}  (Zeilen, Spalten)")
+print(f"Spalten: {df.columns.tolist()}")
+print(f"\nDatentypen:\n{df.dtypes}")
+```
+
+### 2. Daten filtern und auswählen
+
+```{python}
+# Einzelne Spalte
+print("Alle Namen:")
+print(df['Name'].tolist())
+
+# Mehrere Spalten
+print("\nName und Alter:")
+print(df[['Name', 'Alter']])
+
+# Zeile filtern (Personen über 28 Jahren)
+print("\nPersonen über 28 Jahren:")
+print(df[df['Alter'] > 28])
+```
+
+::: {.callout-tip}
+## Tipp: Boolean Indexing
+Mit `df[df['Spalte'] > Wert]` kannst du Zeilen nach Bedingungen filtern. Combine mehrere Bedingungen mit `&` (und) oder `|` (oder).
+:::
+
+### 3. Daten aggregieren und analysieren
+
+```{python}
+# Statistische Zusammenfassung
+print("Statistik für numerische Spalten:")
+print(df.describe())
+
+# Durchschnittseinkommen
+durchschnitt_einkommen = df['Einkommen'].mean()
+print(f"\nDurchschnittseinkommen: €{durchschnitt_einkommen:,.0f}")
+
+# Gruppierung nach Stadt
+print("\nDurchschnittseinkommen pro Stadt:")
+print(df.groupby('Stadt')['Einkommen'].mean())
+```
+
+---
+
+## Praktisches Projekt: Verkaufsdaten analysieren
+
+::: {.panel-tabset}
+
+## 📝 Aufgabe
+
+Gegeben ist ein DataFrame mit Verkaufsdaten. Beantworte diese Fragen:
+
+1. Wie viele Verkäufe gibt es insgesamt?
+2. Welcher Artikel hat den höchsten Durchschnittspreis?
+3. Gib nur die Verkäufe über €50 aus.
+
+## ✅ Lösung
+
+```{python}
+# Verkaufsdaten
+verkaeufe = {
+    'Artikel': ['Laptop', 'Mouse', 'Keyboard', 'Monitor', 'Webcam'],
+    'Preis': [999, 25, 75, 299, 89],
+    'Menge': [5, 20, 12, 3, 8]
+}
+
+df_verkaeufe = pd.DataFrame(verkaeufe)
+
+# 1. Gesamte Verkäufe
+gesamte_verkaeufe = df_verkaeufe['Menge'].sum()
+print(f"Gesamte Verkäufe: {gesamte_verkaeufe} Einheiten")
+
+# 2. Artikel mit höchstem Preis
+teuerster_artikel = df_verkaeufe.loc[df_verkaeufe['Preis'].idxmax(), 'Artikel']
+print(f"Teuerster Artikel: {teuerster_artikel}")
+
+# 3. Verkäufe über €50
+print("\nArtikel über €50:")
+artikel_ueber_50 = df_verkaeufe[df_verkaeufe['Preis'] > 50]
+print(artikel_ueber_50)
+
+# Bonus: Gesamtumsatz
+df_verkaeufe['Gesamtwert'] = df_verkaeufe['Preis'] * df_verkaeufe['Menge']
+print(f"\nGesamtumsatz: €{df_verkaeufe['Gesamtwert'].sum():,.0f}")
+```
+
+:::
+
+---
+
+## Häufige Pandas-Operationen
+
+```{python}
+# Sortieren
+print("DataFrame sortiert nach Alter (aufsteigend):")
+print(df.sort_values('Alter'))
+
+# Neue Spalte erstellen
+df['Bonus'] = df['Einkommen'] * 0.1
+print(f"\nBonusberechnung hinzugefügt: {df[['Name', 'Einkommen', 'Bonus']].head()}")
+
+# Zeilen hinzufügen
+neue_zeile = {'Name': 'Eve', 'Alter': 27, 'Stadt': 'Frankfurt', 'Einkommen': 50000, 'Bonus': 5000}
+df = pd.concat([df, pd.DataFrame([neue_zeile])], ignore_index=True)
+print(f"\nDataFrame nach Hinzufügen: {df.shape[0]} Zeilen")
+```
+
+---
+
+## Zusammenfassung
+
+- **DataFrames** sind die zentrale Datenstruktur in Pandas
+- **Filtering** mit Boolean Indexing ist mächtig für Datenauswahl
+- **Gruppierungen und Aggregationen** helfen bei der Analyse
+- **Spalten erstellen** ist einfach und ermöglicht neue Erkenntnisse
+
+**Im nächsten Kapitel:** Wir visualisieren Daten mit Matplotlib und Seaborn!

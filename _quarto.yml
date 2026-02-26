@@ -10,6 +10,8 @@ website:
         text: Home
       - href: python-kurs/lektion1.qmd
         text: Python Kurs
+      - href: data-science-kurs/01_basics.qmd
+        text: Data Science Kurs
       - href: vibecoding-kurs/lektion1.qmd
         text: Vibecoding Kurs
 

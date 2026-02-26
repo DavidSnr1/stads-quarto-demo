@@ -54,5 +54,33 @@
     "title": "STADS",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nLaTeX-Formeln werden in Quarto automatisch mit MathJax gerendert.↩︎"
+  },
+  {
+    "objectID": "data-science-kurs/01_basics.html",
+    "href": "data-science-kurs/01_basics.html",
+    "title": "Kapitel 1: Python Basics",
+    "section": "",
+    "text": "Python ist eine leistungsstarke und leicht zu erlernende Programmiersprache, ideal für Data Science und numerische Berechnungen. In diesem Kapitel lernst du die fundamentalen Konzepte kennen.\n\n\nEine Variable ist ein benannter Speicherplatz für einen Wert. In Python deklarierst du Variablen einfach durch Zuweisung:\n\n# Variablen erstellen und Werte zuweisen\nname = \"Alice\"\nalter = 25\ngehalt = 45000.50\n\n# Ausgabe\nprint(f\"Name: {name}\")\nprint(f\"Alter: {alter}\")\nprint(f\"Gehalt: ${gehalt:,.2f}\")\n\nName: Alice\nAlter: 25\nGehalt: $45,000.50\n\n\n\n\n\nPython unterstützt verschiedene Datentypen, die automatisch erkannt werden:\n\n# Verschiedene Datentypen\ntext = \"Hello World\"  # str\nzahl_int = 42         # int\nzahl_float = 3.14     # float\nwahrheitswert = True  # bool\n\n# Datentyp überprüfen\nprint(f\"Type of '{text}': {type(text)}\")\nprint(f\"Type of {zahl_int}: {type(zahl_int)}\")\nprint(f\"Type of {zahl_float}: {type(zahl_float)}\")\nprint(f\"Type of {wahrheitswert}: {type(wahrheitswert)}\")\n\nType of 'Hello World': &lt;class 'str'&gt;\nType of 42: &lt;class 'int'&gt;\nType of 3.14: &lt;class 'float'&gt;\nType of True: &lt;class 'bool'&gt;\n\n\n\n\n\n\n\n\n\n\n\nTipTipp: Rechnen mit Python\n\n\n\nPython kann wie ein Taschenrechner verwendet werden. Die Standard-Operatoren sind +, -, *, /, // (ganzzahlige Division) und ** (Potenz).\n\n\n\n# Arithmetische Operationen\na = 10\nb = 3\n\naddition = a + b\nsubtraktion = a - b\nmultiplikation = a * b\ndivision = a / b\nganzzahlige_division = a // b\npotenz = a ** b\n\nprint(f\"{a} + {b} = {addition}\")\nprint(f\"{a} - {b} = {subtraktion}\")\nprint(f\"{a} * {b} = {multiplikation}\")\nprint(f\"{a} / {b} = {division:.2f}\")\nprint(f\"{a} // {b} = {ganzzahlige_division}\")\nprint(f\"{a} ** {b} = {potenz}\")\n\n10 + 3 = 13\n10 - 3 = 7\n10 * 3 = 30\n10 / 3 = 3.33\n10 // 3 = 3\n10 ** 3 = 1000"
+  },
+  {
+    "objectID": "data-science-kurs/01_basics.html#einführung-in-python",
+    "href": "data-science-kurs/01_basics.html#einführung-in-python",
+    "title": "Kapitel 1: Python Basics",
+    "section": "",
+    "text": "Python ist eine leistungsstarke und leicht zu erlernende Programmiersprache, ideal für Data Science und numerische Berechnungen. In diesem Kapitel lernst du die fundamentalen Konzepte kennen.\n\n\nEine Variable ist ein benannter Speicherplatz für einen Wert. In Python deklarierst du Variablen einfach durch Zuweisung:\n\n# Variablen erstellen und Werte zuweisen\nname = \"Alice\"\nalter = 25\ngehalt = 45000.50\n\n# Ausgabe\nprint(f\"Name: {name}\")\nprint(f\"Alter: {alter}\")\nprint(f\"Gehalt: ${gehalt:,.2f}\")\n\nName: Alice\nAlter: 25\nGehalt: $45,000.50\n\n\n\n\n\nPython unterstützt verschiedene Datentypen, die automatisch erkannt werden:\n\n# Verschiedene Datentypen\ntext = \"Hello World\"  # str\nzahl_int = 42         # int\nzahl_float = 3.14     # float\nwahrheitswert = True  # bool\n\n# Datentyp überprüfen\nprint(f\"Type of '{text}': {type(text)}\")\nprint(f\"Type of {zahl_int}: {type(zahl_int)}\")\nprint(f\"Type of {zahl_float}: {type(zahl_float)}\")\nprint(f\"Type of {wahrheitswert}: {type(wahrheitswert)}\")\n\nType of 'Hello World': &lt;class 'str'&gt;\nType of 42: &lt;class 'int'&gt;\nType of 3.14: &lt;class 'float'&gt;\nType of True: &lt;class 'bool'&gt;\n\n\n\n\n\n\n\n\n\n\n\nTipTipp: Rechnen mit Python\n\n\n\nPython kann wie ein Taschenrechner verwendet werden. Die Standard-Operatoren sind +, -, *, /, // (ganzzahlige Division) und ** (Potenz).\n\n\n\n# Arithmetische Operationen\na = 10\nb = 3\n\naddition = a + b\nsubtraktion = a - b\nmultiplikation = a * b\ndivision = a / b\nganzzahlige_division = a // b\npotenz = a ** b\n\nprint(f\"{a} + {b} = {addition}\")\nprint(f\"{a} - {b} = {subtraktion}\")\nprint(f\"{a} * {b} = {multiplikation}\")\nprint(f\"{a} / {b} = {division:.2f}\")\nprint(f\"{a} // {b} = {ganzzahlige_division}\")\nprint(f\"{a} ** {b} = {potenz}\")\n\n10 + 3 = 13\n10 - 3 = 7\n10 * 3 = 30\n10 / 3 = 3.33\n10 // 3 = 3\n10 ** 3 = 1000"
+  },
+  {
+    "objectID": "data-science-kurs/01_basics.html#übung-variablen-und-berechnungen",
+    "href": "data-science-kurs/01_basics.html#übung-variablen-und-berechnungen",
+    "title": "Kapitel 1: Python Basics",
+    "section": "Übung: Variablen und Berechnungen",
+    "text": "Übung: Variablen und Berechnungen\n\n📝 Aufgabe✅ Lösung\n\n\nErstelle drei Variablen: 1. preis_artikel = 19.99 2. menge = 5 3. steuersatz = 0.19\nBerechne dann: - gesamt_netto = preis_artikel × menge - steuerbetrag = gesamt_netto × steuersatz - gesamt_brutto = gesamt_netto + steuerbetrag\nGib alle Werte formatiert aus.\n\n\n\n# Variablen definieren\npreis_artikel = 19.99\nmenge = 5\nsteuersatz = 0.19\n\n# Berechnungen\ngesamt_netto = preis_artikel * menge\nsteuerbetrag = gesamt_netto * steuersatz\ngesamt_brutto = gesamt_netto + steuerbetrag\n\n# Ausgabe\nprint(f\"Preis pro Artikel: €{preis_artikel:.2f}\")\nprint(f\"Menge: {menge}\")\nprint(f\"Gesamtpreis (netto): €{gesamt_netto:.2f}\")\nprint(f\"Steuerbetrag (19%): €{steuerbetrag:.2f}\")\nprint(f\"Gesamtpreis (brutto): €{gesamt_brutto:.2f}\")\n\nPreis pro Artikel: €19.99\nMenge: 5\nGesamtpreis (netto): €99.95\nSteuerbetrag (19%): €18.99\nGesamtpreis (brutto): €118.94"
+  },
+  {
+    "objectID": "data-science-kurs/01_basics.html#zusammenfassung",
+    "href": "data-science-kurs/01_basics.html#zusammenfassung",
+    "title": "Kapitel 1: Python Basics",
+    "section": "Zusammenfassung",
+    "text": "Zusammenfassung\n\nVariablen speichern Werte unter einem Namen\nDatentypen unterscheiden zwischen Zahlen, Text und Wahrheitswerten\nOperationen ermöglichen mathematische Berechnungen\nNutze print() und f-Strings für lesbare Ausgaben\n\nIm nächsten Kapitel: Wir lernen Datenstrukturen wie Listen und Dictionaries!"
   }
 ]
