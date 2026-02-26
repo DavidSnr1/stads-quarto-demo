@@ -1,32 +1,78 @@
-/* Import Google Fonts for Montserrat */
+/* STADS Branding and layout tweaks */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
-/* Override Bootstrap variables for STADS-style theme */
-$primary: #0056B3; /* STADS blue accent color */
+$primary: #0056B3; /* STADS blue */
 $font-family-base: 'Montserrat', sans-serif;
 
-/* Additional custom styles if needed */
-.navbar-brand {
-  font-weight: 600;
+body {
+  font-family: $font-family-base, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  color: #222;
 }
 
+/* Navbar */
+.navbar {
+  background-color: $primary;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #fff !important;
+}
+.navbar .nav-link:hover {
+  color: rgba(255,255,255,0.9) !important;
+}
+.navbar .navbar-brand img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+/* Cards on landing page */
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+.card h3 a { color: inherit; }
+
+/* Buttons */
 .btn-primary {
   background-color: $primary;
   border-color: $primary;
+  color: #fff;
 }
-
-.btn-primary:hover {
-  background-color: darken($primary, 10%);
-  border-color: darken($primary, 10%);
-}
-
-a {
+.btn-outline-primary {
   color: $primary;
+  border-color: $primary;
+  background: transparent;
+}
+.btn-outline-primary:hover {
+  background-color: rgba(0,86,179,0.06);
 }
 
-a:hover {
-  color: darken($primary, 15%);
+/* Links */
+a { color: $primary; }
+a:hover { color: darken($primary, 8%); }
+
+/* Search input styling (Quarto search) */
+.quarto-search-input,
+.search-input {
+  border-radius: 6px !important;
+  border: 1px solid rgba(0,0,0,0.12) !important;
+  padding: 6px 10px !important;
 }
 
-/* Ensure the theme is applied */
+/* Small helpers */
+.site-footer {
+  padding: 20px 0;
+  border-top: 1px solid rgba(0,0,0,0.06);
+  color: rgba(0,0,0,0.7);
+}
+
+/* Responsive tweaks for grid cards */
+@media (max-width: 767px) {
+  .card { margin-bottom: 12px; }
+}
+
+/* Keep import of bootstrap at end if available to ensure overrides apply */
 @import "bootstrap";

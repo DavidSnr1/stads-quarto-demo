@@ -16,16 +16,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Willkommen bei der Studentischen Initiative",
+    "title": "STADS Education",
     "section": "",
-    "text": "Dies ist die Startseite unserer studentischen Initiative. Hier finden Sie Informationen zu unseren Kursen und Aktivitäten.\n\n\n\nPython Kurs\nVibecoding Kurs\n\nBleiben Sie dran für mehr Inhalte!"
+    "text": "Unsere Lernplattform bündelt alle Kurse der STADS-Initiative an einem Ort. Wähle einen Kurs, um loszulegen.\n\n:::\n\n\n&lt;div class=\"card\" style=\"padding:24px;display:flex;align-items:center;gap:16px;\"&gt;\n  &lt;img src=\"images/python-card.png\" alt=\"Python\" style=\"width:96px;height:96px;object-fit:cover;border-radius:8px;\"/&gt;\n  &lt;div&gt;\n    &lt;h3&gt;&lt;a href=\"python/index.qmd\"&gt;Python Fundamentals&lt;/a&gt;&lt;/h3&gt;\n    &lt;p&gt;Kurs migriert von der alten STADS Python-Website — Grundlagen, Pandas, Visualisierung und Projekt.&lt;/p&gt;\n    &lt;a class=\"btn btn-primary\" href=\"python/index.qmd\"&gt;Zum Kurs&lt;/a&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n\n\n&lt;div class=\"card\" style=\"padding:24px;display:flex;align-items:center;gap:16px;\"&gt;\n  &lt;img src=\"images/vibecoding-card.png\" alt=\"Vibecoding\" style=\"width:96px;height:96px;object-fit:cover;border-radius:8px;\"/&gt;\n  &lt;div&gt;\n    &lt;h3&gt;&lt;a href=\"vibecoding/index.qmd\"&gt;Vibecoding & AI&lt;/a&gt;&lt;/h3&gt;\n    &lt;p&gt;Interaktive Workshops zu Musik-Coding, KI-Tools und kreativer Entwicklung.&lt;/p&gt;\n    &lt;a class=\"btn btn-outline-primary\" href=\"vibecoding/index.qmd\"&gt;Mehr erfahren&lt;/a&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n\n\n:::\n\n\n\n\nPython Kurs — Übersicht\nData Science — Basics"
   },
   {
     "objectID": "index.html#kurse",
     "href": "index.html#kurse",
-    "title": "Willkommen bei der Studentischen Initiative",
-    "section": "",
-    "text": "Python Kurs\nVibecoding Kurs\n\nBleiben Sie dran für mehr Inhalte!"
+    "title": "STADS Education",
+    "section": "Kurse",
+    "text": "Kurse\n\nPython Kurs\nVibecoding Kurs\n\nBleiben Sie dran für mehr Inhalte!"
   },
   {
     "objectID": "python-kurs/lektion1.html",
@@ -82,5 +82,26 @@
     "title": "Kapitel 1: Python Basics",
     "section": "Zusammenfassung",
     "text": "Zusammenfassung\n\nVariablen speichern Werte unter einem Namen\nDatentypen unterscheiden zwischen Zahlen, Text und Wahrheitswerten\nOperationen ermöglichen mathematische Berechnungen\nNutze print() und f-Strings für lesbare Ausgaben\n\nIm nächsten Kapitel: Wir lernen Datenstrukturen wie Listen und Dictionaries!"
+  },
+  {
+    "objectID": "index.html#willkommen-bei-stads-education",
+    "href": "index.html#willkommen-bei-stads-education",
+    "title": "STADS Education",
+    "section": "",
+    "text": "Unsere Lernplattform bündelt alle Kurse der STADS-Initiative an einem Ort. Wähle einen Kurs, um loszulegen.\n\n:::\n\n\n&lt;div class=\"card\" style=\"padding:24px;display:flex;align-items:center;gap:16px;\"&gt;\n  &lt;img src=\"images/python-card.png\" alt=\"Python\" style=\"width:96px;height:96px;object-fit:cover;border-radius:8px;\"/&gt;\n  &lt;div&gt;\n    &lt;h3&gt;&lt;a href=\"python/index.qmd\"&gt;Python Fundamentals&lt;/a&gt;&lt;/h3&gt;\n    &lt;p&gt;Kurs migriert von der alten STADS Python-Website — Grundlagen, Pandas, Visualisierung und Projekt.&lt;/p&gt;\n    &lt;a class=\"btn btn-primary\" href=\"python/index.qmd\"&gt;Zum Kurs&lt;/a&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n\n\n&lt;div class=\"card\" style=\"padding:24px;display:flex;align-items:center;gap:16px;\"&gt;\n  &lt;img src=\"images/vibecoding-card.png\" alt=\"Vibecoding\" style=\"width:96px;height:96px;object-fit:cover;border-radius:8px;\"/&gt;\n  &lt;div&gt;\n    &lt;h3&gt;&lt;a href=\"vibecoding/index.qmd\"&gt;Vibecoding & AI&lt;/a&gt;&lt;/h3&gt;\n    &lt;p&gt;Interaktive Workshops zu Musik-Coding, KI-Tools und kreativer Entwicklung.&lt;/p&gt;\n    &lt;a class=\"btn btn-outline-primary\" href=\"vibecoding/index.qmd\"&gt;Mehr erfahren&lt;/a&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n\n\n:::\n\n\n\n\nPython Kurs — Übersicht\nData Science — Basics"
+  },
+  {
+    "objectID": "index.html#section",
+    "href": "index.html#section",
+    "title": "STADS Education",
+    "section": ":::",
+    "text": ":::"
+  },
+  {
+    "objectID": "index.html#title-willkommen-bei-der-studentischen-initiative",
+    "href": "index.html#title-willkommen-bei-der-studentischen-initiative",
+    "title": "STADS Education",
+    "section": "title: “Willkommen bei der Studentischen Initiative”",
+    "text": "title: “Willkommen bei der Studentischen Initiative”"
   }
 ]
