@@ -1,6 +1,9 @@
+---
+title: "Python Lektion 1"
+author: "STADS Team"
 execute:
   freeze: true
-
+---
 
 ## Vorteile von Markdown für technische Dokumentation
 

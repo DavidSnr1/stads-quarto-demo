@@ -17,3 +17,6 @@ format:
   html:
     theme: cosmo
     css: styles/custom.scss
+
+execute:
+  freeze: true
