@@ -11,7 +11,7 @@
     "href": "python/index.html",
     "title": "Python Kurs",
     "section": "",
-    "text": "Python Kurs\n(Seite in Bearbeitung)"
+    "text": "Python Kurs\n\n\n\n\n\n\nTip\n\n\n\n\nAufgabeLösung\n\n\nSchreibe eine Funktion, die “Hallo STADS” ausgibt.\n\n\n```python def greet(): print(“Hallo STADS”)"
   },
   {
     "objectID": "contact.html",
@@ -25,7 +25,7 @@
     "href": "index.html",
     "title": "STADS Education",
     "section": "",
-    "text": "Unser Portal bündelt alle Kurse und Workshops der STADS-Initiative.\n\n\n\nPython – Einsteigerkurs zu Python-Programmierung\nVibecoding – Kreative Workshops zu Musik-Coding und KI-Tools\n\nWähle einen Kurs aus dem Menü, um mehr zu erfahren.\n\nKontakt: Schreib uns"
+    "text": "Explore Courses About STADS"
   },
   {
     "objectID": "index.html#verfügbare-kurse",
@@ -47,5 +47,75 @@
     "title": "Lesson 01 — Basics",
     "section": "",
     "text": "# Kurzes Beispiel\nprint('Hello STADS!')\n\nHello STADS!\n\n\n\n\n\n\n\n\nTip\n\n\n\nDiese Lesson ist ein Platzhalter. Inhalte aus der alten Seite können hier eingefügt werden."
+  },
+  {
+    "objectID": "index.html#dein-skill-hub-für-data-science",
+    "href": "index.html#dein-skill-hub-für-data-science",
+    "title": "Willkommen bei STADS Education",
+    "section": "",
+    "text": "Wir bei STADS glauben, dass Coding und Datenanalyse die Schlüsselkompetenzen der Zukunft sind. In Zusammenarbeit mit der Universität Mannheim bieten wir Studierenden aller Fachrichtungen die Möglichkeit, diese Skills praxisnah zu erlernen.\n\n\n\n\nUnser Flaggschiff-Kurs. Lerne Python von Grund auf – perfekt für Data Analytics. Zu den Kursinfos\n\n\n\nNutze die Power von KI-Tools und LLMs, um effizienter zu programmieren. Mehr erfahren"
+  },
+  {
+    "objectID": "index.html#unser-standard-setup",
+    "href": "index.html#unser-standard-setup",
+    "title": "Willkommen bei STADS Education",
+    "section": "🛠️ Unser Standard-Setup",
+    "text": "🛠️ Unser Standard-Setup\nEgal welchen Kurs du besuchst, wir arbeiten mit industrieweiten Standards. Bereite deinen Laptop vor:\n\nPython 3.13: Die Basis für alles.\nVS Code: Unser bevorzugter Editor für Jupyter Notebooks.\nGit: Für die Versionsverwaltung deiner Projekte.\n\n\n\n\n\n\n\nNoteUnterstützung gesucht?\n\n\n\nKomm zu unseren Q&A Sessions oder schreib uns bei Fragen zum Setup!\n\n\n\nKontakt: Schreib uns"
+  },
+  {
+    "objectID": "index.html#kurse",
+    "href": "index.html#kurse",
+    "title": "STADS Education",
+    "section": "Unsere Kurse",
+    "text": "Unsere Kurse\n\n\n\n🐍 Python Data Science\nDer ideale Einstieg in die Welt der Daten. Wir begleiten dich von der ersten Variable bis zur komplexen Analyse. Kursdetails →\n\n\n🤖 AI & Vibecoding\nEffizienz durch KI. Lerne, wie du mit LLMs und modernen Tools Software schneller und smarter entwickelst. Kursdetails →"
+  },
+  {
+    "objectID": "index.html#vorbereitung-setup",
+    "href": "index.html#vorbereitung-setup",
+    "title": "STADS Education",
+    "section": "Vorbereitung & Setup",
+    "text": "Vorbereitung & Setup\nEgal für welchen Kurs du dich entscheidest, wir nutzen ein einheitliches Toolset.\n\n🐍 Python🖥️ Editor🌿 Git\n\n\nInstalliere Python 3.13 (Miniconda empfohlen).\n\n\nWir nutzen VS Code mit den Python- & Jupyter-Extensions.\n\n\nVersionsverwaltung ist Pflicht. Installiere Git für dein Betriebssystem."
+  },
+  {
+    "objectID": "index.html#deine-vorbereitung",
+    "href": "index.html#deine-vorbereitung",
+    "title": "STADS Education",
+    "section": "Deine Vorbereitung",
+    "text": "Deine Vorbereitung\nEgal welcher Kurs – dieses Setup bringt dich ans Ziel.\n\n🐍 Python🖥️ VS Code🌿 Git\n\n\nInstalliere Python 3.13 via Miniconda.\n\n\nNutze den Industriestandard für Coding.\n\n\nVersionsverwaltung von Anfang an lernen."
+  },
+  {
+    "objectID": "index.html#our-mission",
+    "href": "index.html#our-mission",
+    "title": "STADS Education",
+    "section": "Our Mission",
+    "text": "Our Mission"
+  },
+  {
+    "objectID": "index.html#current-course-portfolio",
+    "href": "index.html#current-course-portfolio",
+    "title": "STADS Education",
+    "section": "Current Course Portfolio",
+    "text": "Current Course Portfolio\n\n\n\n\n🐍 Python Fundamentals\nMaster the world’s most popular language for data science. View Course Details\n\n\n🤖 AI & Vibecoding\nLearn to build software at the speed of thought. View Course Details\n\n\n\n\n\n\n\nOur Mission\n\n\nEmpowering Every Student\nAt STADS, we believe that data literacy is the universal language of the 21st century. In an era defined by information, the ability to understand, interpret, and leverage data is no longer just a technical skill—it is a fundamental requirement for leadership and innovation across all disciplines. Our mission is to provide students from all academic backgrounds, from the humanities to the natural sciences, with the practical programming and analytical skills needed to thrive in an increasingly data-driven world.\n\n\n\nBridging the Gap\nWe recognize the growing divide between academic theory and industry demands. While universities provide the conceptual foundation, the fast-paced world of technology requires hands-on agility. STADS Education serves as the vital bridge, translating complex statistical concepts into executable code. By focusing on modern tools like Python, Version Control with Git, and the integration of Artificial Intelligence, we ensure that our participants are not just observers of the digital transformation, but active architects of it.\n\n\n\nPeer-to-Peer Excellence\nWhat sets us apart is our community-driven approach. We are students teaching students. This unique dynamic fosters a low-barrier learning environment where questions are encouraged and complex topics are deconstructed into relatable insights. Through our structured curriculum and interactive sessions, we transform theoretical knowledge into actionable expertise, preparing the next generation of Mannheim graduates to lead with confidence in a globalized, tech-centric economy.\n\n\n\nA Future-Proof Mindset\nBeyond syntax and algorithms, we cultivate a mindset of continuous growth. In the age of “Vibecoding” and generative AI, the tools will change, but the logic of data remains constant. We empower our members to stay curious, adapt to new workflows, and maintain the high ethical standards required when handling the data that shapes our society. Join us in building a future where everyone has the power to turn raw data into meaningful impact.\n\n\n\n\n\nTechnical Requirements\n\n🐍 Python🖥️ IDE🌿 Git\n\n\nWe recommend installing Python 3.13.\n\n\nWe use Visual Studio Code.\n\n\nGit is essential for collaboration."
+  },
+  {
+    "objectID": "index.html#technical-requirements",
+    "href": "index.html#technical-requirements",
+    "title": "STADS Education",
+    "section": "Technical Requirements",
+    "text": "Technical Requirements\n\n🐍 Python🖥️ IDE🌿 Git\n\n\nWe recommend installing Python 3.13.\n\n\nWe use Visual Studio Code.\n\n\nGit is essential for collaboration."
+  },
+  {
+    "objectID": "index.html#python-fundamentals",
+    "href": "index.html#python-fundamentals",
+    "title": "STADS Education",
+    "section": "🐍 Python Fundamentals",
+    "text": "🐍 Python Fundamentals\nMaster the world’s most popular language for data science. From basics to advanced data manipulation with Pandas.\n\nView Course Details"
+  },
+  {
+    "objectID": "index.html#ai-vibecoding",
+    "href": "index.html#ai-vibecoding",
+    "title": "STADS Education",
+    "section": "🤖 AI & Vibecoding",
+    "text": "🤖 AI & Vibecoding\nLearn to build software at the speed of thought. Master LLMs, AI-assistants, and modern developer workflows.\n\nView Course Details"
   }
 ]

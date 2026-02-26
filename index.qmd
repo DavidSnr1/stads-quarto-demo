@@ -1,20 +1,115 @@
 ---
-title: "STADS Education"
+title: ""
+page-layout: full
+sidebar: false
+toc: false
 execute:
   freeze: true
 ---
 
-# Willkommen bei STADS Education
+<style>
+  .stads-hero-title {
+    font-size: 4rem !important;
+    font-weight: 800 !important;
+    line-height: 1.0 !important;
+    margin: 0 !important;
+    display: block !important;
+  }
+</style>
 
-Unser Portal bündelt alle Kurse und Workshops der STADS-Initiative.
+::: {.column-screen .text-white .py-5 .text-center style="background-color: #203765;"}
+# STADS Education {.stads-hero-title}
+### Code. Analyze. Lead.
 
-## Verfügbare Kurse
+[Explore Courses](#courses){.btn .btn-light .btn-lg} [About STADS](https://stads.de){.btn .btn-outline-light .btn-lg}
+:::
 
-- **Python** – Einsteigerkurs zu Python-Programmierung
-- **Vibecoding** – Kreative Workshops zu Musik-Coding und KI-Tools
+<br><br><br>
 
-Wähle einen Kurs aus dem Menü, um mehr zu erfahren.
+::: {.column-page #courses}
+---
+
+<br>
+
+::: {.text-start}
+# Current Course Portfolio
+:::
+
+<br>
+
+::: {layout-ncol=2}
+::: {.card .p-5 .text-center .shadow-sm style="min-height: 400px; display: flex; flex-direction: column; justify-content: center;"}
+## 🐍 Python Fundamentals
+Master the world's most popular language for data science. From basics to advanced data manipulation with Pandas.
+
+<br>
+
+[View Course Details](python/index.qmd){.btn .btn-lg style="background-color: #7388B0; color: white; border: none;"}
+:::
+
+::: {.card .p-5 .text-center .shadow-sm style="min-height: 400px; display: flex; flex-direction: column; justify-content: center;"}
+## 🤖 AI & Vibecoding
+Learn to build software at the speed of thought. Master LLMs, AI-assistants, and modern developer workflows.
+
+<br>
+
+[View Course Details](vibecoding/index.qmd){.btn .btn-lg style="background-color: #7388B0; color: white; border: none;"}
+:::
+:::
+:::
+
+<br><br><br>
 
 ---
 
-*Kontakt:* [Schreib uns](contact.qmd)
+# Our Mission
+
+#### **Empowering Every Student**
+At STADS, we believe that data literacy is the universal language of the 21st century. In an era defined by information, the ability to understand, interpret, and leverage data is no longer just a technical skill—it is a fundamental requirement for leadership and innovation across all disciplines. Our mission is to provide students from all academic backgrounds, from the humanities to the natural sciences, with the practical programming and analytical skills needed to thrive in an increasingly data-driven world.
+
+<br>
+
+#### **Bridging the Gap**
+We recognize the growing divide between academic theory and industry demands. While universities provide the conceptual foundation, the fast-paced world of technology requires hands-on agility. STADS Education serves as the vital bridge, translating complex statistical concepts into executable code. By focusing on modern tools like Python, Version Control with Git, and the integration of Artificial Intelligence, we ensure that our participants are not just observers of the digital transformation, but active architects of it.
+
+::: {.column-page .text-center style="margin-top: 100px; margin-bottom: 100px;"}
+
+<br>
+
+::: {.text-start}
+# Technical Requirements
+#### Our courses are designed to be platform-independent, but we rely on a standardized industry-grade tech stack to ensure a seamless learning experience.
+:::
+
+<br>
+
+::: {.panel-tabset}
+
+### 🐍 Python Ecosystem
+Python is the backbone of modern data science. We don't just teach the syntax; we teach the ecosystem.
+<br>
+
+- **Version 3.13:** We always aim for the latest stable release to utilize new features like improved error messages and performance boosts.
+- **Environment Management:** We highly recommend using **Miniconda** or **Anaconda**. This allows you to create isolated environments for different projects, preventing "dependency hell" where different packages conflict with each other.
+- **Key Libraries:** Throughout our courses, you will be introduced to the "Holy Trinity" of Data Science: *Pandas* for data manipulation, *NumPy* for numerical computing, and *Matplotlib/Seaborn* for visualization.
+
+### 🖥️ Modern IDE: VS Code
+While you can write code in a simple text editor, a professional Integrated Development Environment (IDE) acts as your cockpit.
+<br>
+
+- **Visual Studio Code:** Our primary tool of choice. It is lightweight, powerful, and the industry standard.
+- **Jupyter Extension:** This allows you to run "Notebooks" directly inside VS Code. It’s perfect for data science as it lets you combine live code, equations, and visualizations in one document.
+- **AI Integration:** We will show you how to leverage extensions like *GitHub Copilot* or *Cursor* to speed up your workflow and help you debug complex logic in real-time.
+
+### 🌿 Version Control: Git & GitHub
+Coding is rarely a solo activity. Version control is the safety net and the collaboration engine for every developer.
+<br>
+
+- **Git:** You will learn how to track changes in your code, "time travel" back to previous versions, and manage different experimental branches of your project.
+- **GitHub:** All our course materials, starter templates, and project assignments are hosted on GitHub. Learning how to `clone`, `fork`, and `push` code is a core skill we instill from day one.
+- **Collaboration:** Understanding Git is what separates a student who "knows some code" from a junior developer who is "ready for a team."
+
+:::
+:::
+
+<br><br><br>

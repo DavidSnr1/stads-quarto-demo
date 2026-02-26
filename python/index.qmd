@@ -6,4 +6,24 @@ execute:
 
 # Python Kurs
 
-(Seite in Bearbeitung)
+::: {.callout-tip}
+:::
+
+::: {.panel-tabset}
+## Aufgabe
+Schreibe eine Funktion, die "Hallo STADS" ausgibt.
+
+## Lösung
+```python
+def greet():
+    print("Hallo STADS")
+:::
+
+:::: {.columns}
+::: {.column}
+Hier ist Text in der Spalte.
+:::
+::: {.column}
+Hier ist Text in der Spalte.
+:::
+::::
