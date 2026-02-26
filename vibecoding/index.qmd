@@ -1,0 +1,25 @@
+---
+title: "Vibecoding & AI"
+execute:
+  freeze: true
+---
+
+# Vibecoding & AI — Platzhalter
+
+Diese Seite ist ein Platzhalter für den Vibecoding-Kurs. Hier kommen Workshops zu Musik-Coding, kreativen KI-Tools und Live-Demos.
+
+## Kurzbeschreibung
+
+- Interaktive Sessions zu Live-Coding mit Musik
+- Einführung in AI-Tools für kreative Projekte
+- Projektbasierte Aufgaben und Präsentationen
+
+::: {.callout-note}
+Diese Seite ist aktuell ein Platzhalter. Inhalte folgen nach der Migration/Erstellung der Kursmaterialien.
+:::
+
+## Nächste Schritte
+
+- Lehrplan und Termine ergänzen
+- Lessons in `vibecoding/lessons/` anlegen
+- Beispiele und Assets in `vibecoding/assets/`

@@ -1,0 +1,16 @@
+---
+title: "Lesson 01 — Basics"
+execute:
+  freeze: true
+---
+
+## Python Basics (Lesson placeholder)
+
+```{python}
+# Kurzes Beispiel
+print('Hello STADS!')
+```
+
+::: {.callout-tip}
+Diese Lesson ist ein Platzhalter. Inhalte aus der alten Seite können hier eingefügt werden.
+:::
