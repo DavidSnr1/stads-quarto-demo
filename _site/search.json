@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "vibecoding/index.html",
+    "href": "vibecoding/index.html",
+    "title": "Vibecoding",
+    "section": "",
+    "text": "Vibecoding\n(Seite in Bearbeitung)"
+  },
+  {
+    "objectID": "python/index.html",
+    "href": "python/index.html",
+    "title": "Python Kurs",
+    "section": "",
+    "text": "Python Kurs\n(Seite in Bearbeitung)"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Contact\nKontaktiere uns für Fragen zu unseren Kursen.\n(Seite in Bearbeitung)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "STADS Education",
+    "section": "",
+    "text": "Unser Portal bündelt alle Kurse und Workshops der STADS-Initiative.\n\n\n\nPython – Einsteigerkurs zu Python-Programmierung\nVibecoding – Kreative Workshops zu Musik-Coding und KI-Tools\n\nWähle einen Kurs aus dem Menü, um mehr zu erfahren.\n\nKontakt: Schreib uns"
+  },
+  {
+    "objectID": "index.html#verfügbare-kurse",
+    "href": "index.html#verfügbare-kurse",
+    "title": "STADS Education",
+    "section": "",
+    "text": "Python – Einsteigerkurs zu Python-Programmierung\nVibecoding – Kreative Workshops zu Musik-Coding und KI-Tools\n\nWähle einen Kurs aus dem Menü, um mehr zu erfahren.\n\nKontakt: Schreib uns"
+  },
+  {
+    "objectID": "python/lessons/01_basics.html",
+    "href": "python/lessons/01_basics.html",
+    "title": "Lesson 01 — Basics",
+    "section": "",
+    "text": "# Kurzes Beispiel\nprint('Hello STADS!')\n\nHello STADS!\n\n\n\n\n\n\n\n\nTip\n\n\n\nDiese Lesson ist ein Platzhalter. Inhalte aus der alten Seite können hier eingefügt werden."
+  },
+  {
+    "objectID": "python/lessons/01_basics.html#python-basics-lesson-placeholder",
+    "href": "python/lessons/01_basics.html#python-basics-lesson-placeholder",
+    "title": "Lesson 01 — Basics",
+    "section": "",
+    "text": "# Kurzes Beispiel\nprint('Hello STADS!')\n\nHello STADS!\n\n\n\n\n\n\n\n\nTip\n\n\n\nDiese Lesson ist ein Platzhalter. Inhalte aus der alten Seite können hier eingefügt werden."
+  }
+]

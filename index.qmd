@@ -1,0 +1,20 @@
+---
+title: "STADS Education"
+execute:
+  freeze: true
+---
+
+# Willkommen bei STADS Education
+
+Unser Portal bündelt alle Kurse und Workshops der STADS-Initiative.
+
+## Verfügbare Kurse
+
+- **Python** – Einsteigerkurs zu Python-Programmierung
+- **Vibecoding** – Kreative Workshops zu Musik-Coding und KI-Tools
+
+Wähle einen Kurs aus dem Menü, um mehr zu erfahren.
+
+---
+
+*Kontakt:* [Schreib uns](contact.qmd)

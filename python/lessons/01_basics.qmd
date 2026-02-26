@@ -11,6 +11,6 @@ execute:
 print('Hello STADS!')
 ```
 
-::: {.callout-tip}
+::: callout-tip
 Diese Lesson ist ein Platzhalter. Inhalte aus der alten Seite können hier eingefügt werden.
 :::

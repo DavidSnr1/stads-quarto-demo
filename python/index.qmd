@@ -1,9 +1,9 @@
 ---
-title: "Vibecoding"
+title: "Python Kurs"
 execute:
   freeze: true
 ---
 
-# Vibecoding
+# Python Kurs
 
 (Seite in Bearbeitung)

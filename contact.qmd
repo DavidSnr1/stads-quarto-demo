@@ -1,0 +1,11 @@
+---
+title: "Contact"
+execute:
+  freeze: true
+---
+
+# Contact
+
+Kontaktiere uns für Fragen zu unseren Kursen.
+
+(Seite in Bearbeitung)
