@@ -1,0 +1,17 @@
+[
+  {
+    "listing": "/python/index.html",
+    "items": [
+      "/python/lessons/01_basics1.html",
+      "/python/lessons/02_basics2.html"
+    ]
+  },
+  {
+    "listing": "/vibecoding/index.html",
+    "items": [
+      "/vibecoding/lessons/01_intro.html",
+      "/vibecoding/lessons/02_live_coding.html",
+      "/vibecoding/lessons/03_ai_tools.html"
+    ]
+  }
+]
