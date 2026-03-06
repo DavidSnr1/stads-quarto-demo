@@ -1,26 +1,44 @@
 project:
   type: website
+  resources:
+    - images/
 
 website:
-  title: "Courses"
+  title: ""
+
+  navbar:
+    background: primary
+    logo: images/STADS_LOGO_2021_SHORT_wht.png
+    left:
+      - href: index.qmd
+        text: Home
+      - href: python/index.qmd
+        text: Python Kurs
+      - href: vibecoding/index.qmd
+        text: Vibe Coding
+    right:
+      - icon: github
+        href: https://github.com/DavidSnr1/stads-quarto-demo
+
+  # Deine bestehende Sidebar bleibt erhalten
   sidebar:
     - id: sidebar
-      title: "Courses"
+      title: "Navigation"
       style: "docked"
       contents:
         - python/index.qmd
-        - section: "Weeks"
+        - section: "Python Weeks"
           contents:
             - python/01_basics1.qmd
             - python/02_basics2.qmd
         - vibecoding/index.qmd
-        - section: "Weeks"
+        - section: "Vibe Weeks"
           contents:
-            - vibecoding/01_intro.qmd
-            - vibecoding/02_live_coding.qmd
-            - vibecoding/03_ai_tools.qmd
+            - python/01_intro.qmd
+            - python/02_live_coding.qmd
+            - python/03_ai_tools.qmd
 
 format:
   html:
     theme: cosmo
-    
+    css: styles/custom.css

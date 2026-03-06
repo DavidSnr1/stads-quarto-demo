@@ -1,289 +1,31 @@
 [
   {
-    "objectID": "vibecoding/index.html",
-    "href": "vibecoding/index.html",
-    "title": "Vibecoding",
-    "section": "",
-    "text": "Entdecke die kreative Schnittstelle zwischen Musik, Code und Künstlicher Intelligenz. Vibecoding kombiniert Live-Coding-Sessions mit musikalischen Experimenten und modernen AI-Tools.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 1: Vibecoding Basics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2: Live Coding Sessions\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3: AI & Creative Tools\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Vibecoding"
-    ]
+    "objectID": "vibecoding/lessons/03_ai_tools.html#ai-in-der-musikproduktion",
+    "href": "vibecoding/lessons/03_ai_tools.html#ai-in-der-musikproduktion",
+    "title": "Week 3: AI & Creative Tools",
+    "section": "🎵 AI in der Musikproduktion",
+    "text": "🎵 AI in der Musikproduktion\nKünstliche Intelligenz eröffnet neue Möglichkeiten für: - Musik-Generierung – Automatische Komposition - Sound-Synthese – Neue Klang-Welten - Stil-Transfer – Songs im Stil von Künstlern - Lyriks & Harmonien – Assistierte Songwriting\n\nBeliebte AI-Tools\n\nOpenAI Jukebox – Musik-Generierung\nAIVA – Komponist-Assistent\nGoogle Magenta – Research & Tools\nRunwayML – Kreative AI-Suite"
   },
   {
-    "objectID": "python/index.html",
-    "href": "python/index.html",
-    "title": "Python Fundamentals",
-    "section": "",
-    "text": "Willkommen beim STADS Python Kurs! Dieser Kurs ist in logische Etappen unterteilt. Wähle unten ein Kapitel aus, um zu starten.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 1: Python Basics I\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2: Python Basics II\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Python Fundamentals"
-    ]
+    "objectID": "vibecoding/lessons/03_ai_tools.html#ethische-fragen",
+    "href": "vibecoding/lessons/03_ai_tools.html#ethische-fragen",
+    "title": "Week 3: AI & Creative Tools",
+    "section": "🔮 Ethische Fragen",
+    "text": "🔮 Ethische Fragen\n\n\n\n\n\n\nNote\n\n\n\nWichtig: Bei der Nutzung von AI in kreativen Projekten sollten wir überlegen: - Urheberrecht und Attribution - Authentizität und künstlerischer Ausdruck - Datenschutz und Trainings-Daten - Impact auf Kreative und Künstler"
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "Contact\nKontaktiere uns für Fragen zu unseren Kursen.\n(Seite in Bearbeitung)"
+    "objectID": "vibecoding/lessons/01_intro.html#learning-curriculum",
+    "href": "vibecoding/lessons/01_intro.html#learning-curriculum",
+    "title": "Week 1: Vibecoding Basics",
+    "section": "🎧 Learning Curriculum",
+    "text": "🎧 Learning Curriculum\nErforsche die Grundlagen von Vibecoding und Live-Coding mit Sound.\n\n\n\nFundamentals\n\n🎼 Sound Basics\n💻 Live Coding Einführung\n🎹 MIDI & Audio Protokolle\n🔊 Audio Processing\n\n\n\nTools & Technologien\n\n🐍 SuperCollider\n🔧 Pure Data (Pd)\n🎼 Sonic Pi\n🤖 AI & Musik Generation"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "STADS Education",
-    "section": "",
-    "text": "Explore Courses About STADS"
-  },
-  {
-    "objectID": "index.html#verfügbare-kurse",
-    "href": "index.html#verfügbare-kurse",
-    "title": "STADS Education",
-    "section": "",
-    "text": "Python – Einsteigerkurs zu Python-Programmierung\nVibecoding – Kreative Workshops zu Musik-Coding und KI-Tools\n\nWähle einen Kurs aus dem Menü, um mehr zu erfahren.\n\nKontakt: Schreib uns"
-  },
-  {
-    "objectID": "python/lessons/01_basics.html",
-    "href": "python/lessons/01_basics.html",
-    "title": "Lesson 01 — Basics",
-    "section": "",
-    "text": "# Kurzes Beispiel\nprint('Hello STADS!')\n\nHello STADS!\n\n\n\n\n\n\n\n\nTip\n\n\n\nDiese Lesson ist ein Platzhalter. Inhalte aus der alten Seite können hier eingefügt werden."
-  },
-  {
-    "objectID": "python/lessons/01_basics.html#python-basics-lesson-placeholder",
-    "href": "python/lessons/01_basics.html#python-basics-lesson-placeholder",
-    "title": "Lesson 01 — Basics",
-    "section": "",
-    "text": "# Kurzes Beispiel\nprint('Hello STADS!')\n\nHello STADS!\n\n\n\n\n\n\n\n\nTip\n\n\n\nDiese Lesson ist ein Platzhalter. Inhalte aus der alten Seite können hier eingefügt werden."
-  },
-  {
-    "objectID": "index.html#dein-skill-hub-für-data-science",
-    "href": "index.html#dein-skill-hub-für-data-science",
-    "title": "Willkommen bei STADS Education",
-    "section": "",
-    "text": "Wir bei STADS glauben, dass Coding und Datenanalyse die Schlüsselkompetenzen der Zukunft sind. In Zusammenarbeit mit der Universität Mannheim bieten wir Studierenden aller Fachrichtungen die Möglichkeit, diese Skills praxisnah zu erlernen.\n\n\n\n\nUnser Flaggschiff-Kurs. Lerne Python von Grund auf – perfekt für Data Analytics. Zu den Kursinfos\n\n\n\nNutze die Power von KI-Tools und LLMs, um effizienter zu programmieren. Mehr erfahren"
-  },
-  {
-    "objectID": "index.html#unser-standard-setup",
-    "href": "index.html#unser-standard-setup",
-    "title": "Willkommen bei STADS Education",
-    "section": "🛠️ Unser Standard-Setup",
-    "text": "🛠️ Unser Standard-Setup\nEgal welchen Kurs du besuchst, wir arbeiten mit industrieweiten Standards. Bereite deinen Laptop vor:\n\nPython 3.13: Die Basis für alles.\nVS Code: Unser bevorzugter Editor für Jupyter Notebooks.\nGit: Für die Versionsverwaltung deiner Projekte.\n\n\n\n\n\n\n\nNoteUnterstützung gesucht?\n\n\n\nKomm zu unseren Q&A Sessions oder schreib uns bei Fragen zum Setup!\n\n\n\nKontakt: Schreib uns"
-  },
-  {
-    "objectID": "index.html#kurse",
-    "href": "index.html#kurse",
-    "title": "STADS Education",
-    "section": "Unsere Kurse",
-    "text": "Unsere Kurse\n\n\n\n🐍 Python Data Science\nDer ideale Einstieg in die Welt der Daten. Wir begleiten dich von der ersten Variable bis zur komplexen Analyse. Kursdetails →\n\n\n🤖 AI & Vibecoding\nEffizienz durch KI. Lerne, wie du mit LLMs und modernen Tools Software schneller und smarter entwickelst. Kursdetails →"
-  },
-  {
-    "objectID": "index.html#vorbereitung-setup",
-    "href": "index.html#vorbereitung-setup",
-    "title": "STADS Education",
-    "section": "Vorbereitung & Setup",
-    "text": "Vorbereitung & Setup\nEgal für welchen Kurs du dich entscheidest, wir nutzen ein einheitliches Toolset.\n\n🐍 Python🖥️ Editor🌿 Git\n\n\nInstalliere Python 3.13 (Miniconda empfohlen).\n\n\nWir nutzen VS Code mit den Python- & Jupyter-Extensions.\n\n\nVersionsverwaltung ist Pflicht. Installiere Git für dein Betriebssystem."
-  },
-  {
-    "objectID": "index.html#deine-vorbereitung",
-    "href": "index.html#deine-vorbereitung",
-    "title": "STADS Education",
-    "section": "Deine Vorbereitung",
-    "text": "Deine Vorbereitung\nEgal welcher Kurs – dieses Setup bringt dich ans Ziel.\n\n🐍 Python🖥️ VS Code🌿 Git\n\n\nInstalliere Python 3.13 via Miniconda.\n\n\nNutze den Industriestandard für Coding.\n\n\nVersionsverwaltung von Anfang an lernen."
-  },
-  {
-    "objectID": "index.html#our-mission",
-    "href": "index.html#our-mission",
-    "title": "STADS Education",
-    "section": "Our Mission",
-    "text": "Our Mission\n\nAt STADS, we believe that data literacy is the universal language of the 21st century. Our mission is to provide students from all academic backgrounds with the practical programming and analytical skills needed to thrive in a data-driven world.\n\n\n\n\nCurrent Course Portfolio\n\n\n\n🐍 Python Fundamentals\nMaster the world’s most popular language for data science. View Course Details\n\n\n🤖 AI & Vibecoding\nLearn to build software at the speed of thought. View Course Details\n\n\n\n\n\n\n\n\nTechnical Requirements\n\n🐍 Python🖥️ IDE🌿 Git\n\n\nWe recommend installing Python 3.13.\n\n\nWe use Visual Studio Code.\n\n\nGit is essential for collaboration."
-  },
-  {
-    "objectID": "index.html#current-course-portfolio",
-    "href": "index.html#current-course-portfolio",
-    "title": "STADS Education",
-    "section": "Current Course Portfolio",
-    "text": "Current Course Portfolio\n\n\n\n🐍 Python Fundamentals\nMaster the world’s most popular language for data science. View Course Details\n\n\n🤖 AI & Vibecoding\nLearn to build software at the speed of thought. View Course Details"
-  },
-  {
-    "objectID": "index.html#technical-requirements",
-    "href": "index.html#technical-requirements",
-    "title": "STADS Education",
-    "section": "Technical Requirements",
-    "text": "Technical Requirements\n\n🐍 Python🖥️ IDE🌿 Git\n\n\nWe recommend installing Python 3.13.\n\n\nWe use Visual Studio Code.\n\n\nGit is essential for collaboration."
-  },
-  {
-    "objectID": "index.html#python-fundamentals",
-    "href": "index.html#python-fundamentals",
-    "title": "STADS Education",
-    "section": "🐍 Python Fundamentals",
-    "text": "🐍 Python Fundamentals\nMaster the world’s most popular language for data science. From basics to advanced data manipulation with Pandas.\n\nView Course Details"
-  },
-  {
-    "objectID": "index.html#ai-vibecoding",
-    "href": "index.html#ai-vibecoding",
-    "title": "STADS Education",
-    "section": "🤖 AI & Vibecoding",
-    "text": "🤖 AI & Vibecoding\nLearn to build software at the speed of thought. Master LLMs, AI-assistants, and modern developer workflows.\n\nView Course Details"
-  },
-  {
-    "objectID": "python/lessons/01_intro.html",
-    "href": "python/lessons/01_intro.html",
-    "title": "STADS Education",
-    "section": "",
-    "text": "��--- title: “” toc: true toc-depth: 3 page-layout: full ---  &lt;br&gt;  ::: {.d-flex .gap-2} [&lt;��� Home](../../index.qmd){.btn .btn-outline-secondary .btn-sm} [=�� Python Overview](../index.qmd){.btn .btn-outline-secondary .btn-sm} :::  &lt;br&gt;  #  Week 1: Python Basics I The foundation of your Python journey.  &lt;br&gt;  ##  Learning Curriculum Klicke auf die Themen, um direkt zu den interaktiven �bungen auf w3schools zu gelangen.  ::: {layout-ncol=2} ### �W@x (Fundamentals) * [ Python Syntax](https://www.w3schools.com/python/python_syntax.asp) * [ Python Comments](https://www.w3schools.com/python/python_comments.asp) * [ Python Variables](https://www.w3schools.com/python/python_variables.asp) * [ Python Data Types](https://www.w3schools.com/python/python_datatypes.asp)  ### Details * [ Python Numbers](https://www.w3schools.com/python/python_numbers.asp) * [ Python Casting](https://www.w3schools.com/python/python_casting.asp) * [ Python Strings](https://www.w3schools.com/python/python_strings.asp) * [ Python User Input](https://www.w3schools.com/python/pythonuserinput.asp) :::  &lt;br&gt; &lt;hr&gt; &lt;br&gt;  ##  Project 1: Band Name Generator  ::: {.panel-tabset}  ###  Die Aufgabe Erstelle einen Bandnamen-Generator, der Benutzereingaben verarbeitet.  1. Erstelle eine Begr��ung f�r dein Programm. 2. Frage den Nutzer nach der Stadt, in der er aufgewachsen ist. 3. Frage den Nutzer nach dem Namen seines ersten Haustiers. 4. Kombiniere die Namen der Stadt und des Haustiers und zeige ihnen ihren Bandnamen an.  ###  Die L�sung python print(\"Welcome to the Band Name Generator.\") city = input(\"What's the name of the city you grew up in?\\n\") pet = input(\"What's your pet's name?\\n\") print(\"Your band name could be \" + city + \" \" + pet)   :::"
-  },
-  {
-    "objectID": "python/lessons/01_intro.html#code-beispiel",
-    "href": "python/lessons/01_intro.html#code-beispiel",
-    "title": "Introduction to Python",
-    "section": "",
-    "text": "Hier ist ein interaktiver Code-Block:\n#| echo: true print(“Welcome to STADS Education!”) x = 5 + 5 print(f”Result: {x}“)"
-  },
-  {
-    "objectID": "python/lessons/02_pandas.html",
-    "href": "python/lessons/02_pandas.html",
-    "title": "Introduction to Python",
-    "section": "",
-    "text": "In diesem Kapitel lernen wir die Grundlagen.\n\n\nHier ist ein interaktiver Code-Block:\n#| echo: true print(“Welcome to STADS Education!”) x = 5 + 5 print(f”Result: {x}“)"
-  },
-  {
-    "objectID": "python/lessons/02_pandas.html#code-beispiel",
-    "href": "python/lessons/02_pandas.html#code-beispiel",
-    "title": "Introduction to Python",
-    "section": "",
-    "text": "Hier ist ein interaktiver Code-Block:\n#| echo: true print(“Welcome to STADS Education!”) x = 5 + 5 print(f”Result: {x}“)"
-  },
-  {
-    "objectID": "python/lessons/01_intro.html#session-timeline",
-    "href": "python/lessons/01_intro.html#session-timeline",
-    "title": "Week 1: Python Basics I",
-    "section": "",
-    "text": "Intro Presentation ~30 min Setting the stage & Goals.\n\n\n\nDeep Dive Training ~50 min Interactive w3schools session.\n\n\n\nProject 1 ~10 min The Band Name Generator."
-  },
-  {
-    "objectID": "python/lessons/01_intro.html#learning-curriculum",
-    "href": "python/lessons/01_intro.html#learning-curriculum",
-    "title": "🚀 Week 1: Python Basics I",
-    "section": "📘 Learning Curriculum",
-    "text": "📘 Learning Curriculum\nKlicke auf die Themen, um direkt zu den interaktiven Übungen auf w3schools zu gelangen.\n\n\n\n基础 (Fundamentals)\n\n🐍 Python Syntax\n💬 Python Comments\n📦 Python Variables\n🔢 Python Data Types\n📊 Python Numbers\n🔄 Python Casting\n🔤 Python Strings\n⌨️ Python User Input"
-  },
-  {
-    "objectID": "python/lessons/01_intro.html#hands-on-project",
-    "href": "python/lessons/01_intro.html#hands-on-project",
-    "title": "Week 1: Python Basics I",
-    "section": "",
-    "text": "Every great rockstar needs a name. You will build a script that takes user input (like their city and pet’s name) to generate a unique band name using String Concatenation."
-  },
-  {
-    "objectID": "python/lessons/01_intro.html#materials-resources",
-    "href": "python/lessons/01_intro.html#materials-resources",
-    "title": "Week 1: Python Basics I",
-    "section": "",
-    "text": "Download the slide deck for Week 1.\n\nDownload PDF\n\n\n\nDirect link to the w3schools practice environment.\n\nOpen w3schools"
-  },
-  {
-    "objectID": "python/lessons/01_intro.html#session-schedule",
-    "href": "python/lessons/01_intro.html#session-schedule",
-    "title": "🚀 Week 1: Python Basics I",
-    "section": "",
-    "text": "Intro Presentation ~30min\nw3schools Tutorial ~50min\nProject 1: Band Name Generator ~10min"
-  },
-  {
-    "objectID": "python/lessons/01_intro.html#curriculum",
-    "href": "python/lessons/01_intro.html#curriculum",
-    "title": "🚀 Week 1: Python Basics I",
-    "section": "",
-    "text": "…\n\n\n\n…\n\n\n\n…\n\n\n\n…\n\n\n\n…\n\n\n\n…\n\n\n\n…\n\n\n\n…"
-  },
-  {
-    "objectID": "python/lessons/01_intro.html#project-1-band-name-generator",
-    "href": "python/lessons/01_intro.html#project-1-band-name-generator",
-    "title": "🚀 Week 1: Python Basics I",
-    "section": "🎸 Project 1: Band Name Generator",
-    "text": "🎸 Project 1: Band Name Generator\n\n📝 Die Aufgabe💡 Die Lösung\n\n\nErstelle einen Bandnamen-Generator, der Benutzereingaben verarbeitet.\n\nErstelle eine Begrüßung für dein Programm.\nFrage den Nutzer nach der Stadt, in der er aufgewachsen ist.\nFrage den Nutzer nach dem Namen seines ersten Haustiers.\nKombiniere die Namen der Stadt und des Haustiers und zeige ihnen ihren Bandnamen an.\n\n\n\nprint(\"Welcome to the Band Name Generator.\")\ncity = input(\"What's the name of the city you grew up in?\\n\")\npet = input(\"What's your pet's name?\\n\")\nprint(\"Your band name could be \" + city + \" \" + pet)"
-  },
-  {
-    "objectID": "python/lessons/01_intro.html#material",
-    "href": "python/lessons/01_intro.html#material",
-    "title": "🚀 Week 1: Python Basics I",
-    "section": "📥 Material",
-    "text": "📥 Material\n\n\n\n📽️ Introductory Slides\n\n\n🔗 w3schools Tutorial"
-  },
-  {
-    "objectID": "python/lessons/01_intro.html#python-syntax",
-    "href": "python/lessons/01_intro.html#python-syntax",
-    "title": "Week 1: Python Basics I",
-    "section": "Python Syntax",
-    "text": "Python Syntax\nW3schools: Python Syntax"
-  },
-  {
-    "objectID": "python/lessons/01_intro.html#python-comments",
-    "href": "python/lessons/01_intro.html#python-comments",
-    "title": "Week 1: Python Basics I",
-    "section": "Python Comments",
-    "text": "Python Comments\nW3schools: Python Syntax"
-  },
-  {
-    "objectID": "python/lessons/01_intro.html#python-variables",
-    "href": "python/lessons/01_intro.html#python-variables",
-    "title": "Week 1: Python Basics I",
-    "section": "Python Variables",
-    "text": "Python Variables\nW3schools: Python Syntax"
-  },
-  {
-    "objectID": "python/lessons/01_intro.html#python-data-types",
-    "href": "python/lessons/01_intro.html#python-data-types",
-    "title": "Week 1: Python Basics I",
-    "section": "Python Data Types",
-    "text": "Python Data Types\nW3schools: Python Syntax"
-  },
-  {
-    "objectID": "python/lessons/01_intro.html#python-numbers",
-    "href": "python/lessons/01_intro.html#python-numbers",
-    "title": "Week 1: Python Basics I",
-    "section": "Python Numbers",
-    "text": "Python Numbers\nW3schools: Python Syntax"
-  },
-  {
-    "objectID": "python/lessons/01_intro.html#python-casting",
-    "href": "python/lessons/01_intro.html#python-casting",
-    "title": "Week 1: Python Basics I",
-    "section": "Python Casting",
-    "text": "Python Casting\nW3schools: Python Syntax"
-  },
-  {
-    "objectID": "python/lessons/01_intro.html#python-strings",
-    "href": "python/lessons/01_intro.html#python-strings",
-    "title": "Week 1: Python Basics I",
-    "section": "Python Strings",
-    "text": "Python Strings\nW3schools: Python Syntax"
-  },
-  {
-    "objectID": "python/lessons/01_intro.html#python-user-input",
-    "href": "python/lessons/01_intro.html#python-user-input",
-    "title": "Week 1: Python Basics I",
-    "section": "Python User Input",
-    "text": "Python User Input\nW3schools: Python Syntax"
-  },
-  {
-    "objectID": "python/lessons/01_intro.html#week-1-python-basics-i",
-    "href": "python/lessons/01_intro.html#week-1-python-basics-i",
-    "title": "🎸 Project 1: Band Name Generator",
-    "section": "🚀 Week 1: Python Basics I",
-    "text": "🚀 Week 1: Python Basics I"
-  },
-  {
-    "objectID": "python/lessons/02_pandas.html#project-1-band-name-generator",
-    "href": "python/lessons/02_pandas.html#project-1-band-name-generator",
-    "title": "Week 2: Python Basics II",
-    "section": "🎸 Project 1: Band Name Generator",
-    "text": "🎸 Project 1: Band Name Generator\n\n📝 Die Aufgabe💡 Die Lösung\n\n\nErstelle einen Bandnamen-Generator, der Benutzereingaben verarbeitet.\n\nErstelle eine Begrüßung für dein Programm.\nFrage den Nutzer nach der Stadt, in der er aufgewachsen ist.\nFrage den Nutzer nach dem Namen seines ersten Haustiers.\nKombiniere die Namen der Stadt und des Haustiers und zeige ihnen ihren Bandnamen an.\n\n\n\nprint(\"Welcome to the Band Name Generator.\")\ncity = input(\"What's the name of the city you grew up in?\\n\")\npet = input(\"What's your pet's name?\\n\")\nprint(\"Your band name could be \" + city + \" \" + pet)"
-  },
-  {
-    "objectID": "python/lessons/02_pandas.html#material",
-    "href": "python/lessons/02_pandas.html#material",
-    "title": "Week 2: Python Basics II",
-    "section": "📥 Material",
-    "text": "📥 Material\n\n\n\n📽️ Introductory Slides\n\n\n🔗 w3schools Tutorial"
+    "objectID": "vibecoding/lessons/01_intro.html#project-1-einfacher-synthesizer",
+    "href": "vibecoding/lessons/01_intro.html#project-1-einfacher-synthesizer",
+    "title": "Week 1: Vibecoding Basics",
+    "section": "🎸 Project 1: Einfacher Synthesizer",
+    "text": "🎸 Project 1: Einfacher Synthesizer\n\n📝 Die Aufgabe💡 Konzept🔊 Sonicpi-Beispiel\n\n\nErstelle einen einfachen Synthesizer, der Audiofrequenzen generiert.\n\nVerstehe die Grundlagen von Frequenzen und Wellenlängen.\nImplementiere einen simplen Sinus-Wellen-Generator.\nFüge interaktive Steuerung (Frequenz, Lautstärke) hinzu.\nExperimentiere mit verschiedenen Wellenformen.\n\n\n\nEin Synthesizer ist ein elektronisches Gerät, das Sound durch: - Oszillatoren (Ton-Generierung) - Filter (Klangformung) - Hüllung (Lautstärke-Kurven)\nerzeugt.\n\n\nlive_loop :basic_synth do\n  frequency = rrand(100, 500)\n  use_synth :square\n  play frequency, amp: 0.5, release: 0.3\n  sleep 1\nend"
   },
   {
     "objectID": "python/lessons/02_basics2.html#project-1-band-name-generator",
@@ -314,39 +56,61 @@
     "text": "📥 Material\n\n\n\n📽️ Introductory Slides\n\n\n🔗 w3schools Tutorial"
   },
   {
-    "objectID": "vibecoding/index.html#kursbeschreibung",
-    "href": "vibecoding/index.html#kursbeschreibung",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Current Course Portfolio",
+    "section": "",
+    "text": "Learn. Code. Vibe.\n\n\nDie Zukunft der Softwareentwicklung bei STADS.\n\n\nZu den Kursen"
+  },
+  {
+    "objectID": "index.html#python-fundamentals",
+    "href": "index.html#python-fundamentals",
+    "title": "Current Course Portfolio",
+    "section": "🐍 Python Fundamentals",
+    "text": "🐍 Python Fundamentals\nMaster the world’s most popular language for data science. From basics to advanced data manipulation with Pandas."
+  },
+  {
+    "objectID": "index.html#ai-vibecoding",
+    "href": "index.html#ai-vibecoding",
+    "title": "Current Course Portfolio",
+    "section": "🤖 AI & Vibecoding",
+    "text": "🤖 AI & Vibecoding\nLearn to build software at the speed of thought. Master LLMs, AI-assistants, and modern developer workflows."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Contact\nKontaktiere uns für Fragen zu unseren Kursen.\n(Seite in Bearbeitung)"
+  },
+  {
+    "objectID": "python/index.html",
+    "href": "python/index.html",
+    "title": "Python Fundamentals",
+    "section": "",
+    "text": "Willkommen beim STADS Python Kurs! Dieser Kurs ist in logische Etappen unterteilt. Wähle unten ein Kapitel aus, um zu starten.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 1: Python Basics I\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2: Python Basics II\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Python Kurs",
+      "Python Fundamentals"
+    ]
+  },
+  {
+    "objectID": "python/lessons/01_intro.html",
+    "href": "python/lessons/01_intro.html",
+    "title": "",
+    "section": "",
+    "text": "��--- title: “” toc: true toc-depth: 3 page-layout: full ---  &lt;br&gt;  ::: {.d-flex .gap-2} [&lt;��� Home](../../index.qmd){.btn .btn-outline-secondary .btn-sm} [=�� Python Overview](../index.qmd){.btn .btn-outline-secondary .btn-sm} :::  &lt;br&gt;  #  Week 1: Python Basics I The foundation of your Python journey.  &lt;br&gt;  ##  Learning Curriculum Klicke auf die Themen, um direkt zu den interaktiven �bungen auf w3schools zu gelangen.  ::: {layout-ncol=2} ### �W@x (Fundamentals) * [ Python Syntax](https://www.w3schools.com/python/python_syntax.asp) * [ Python Comments](https://www.w3schools.com/python/python_comments.asp) * [ Python Variables](https://www.w3schools.com/python/python_variables.asp) * [ Python Data Types](https://www.w3schools.com/python/python_datatypes.asp)  ### Details * [ Python Numbers](https://www.w3schools.com/python/python_numbers.asp) * [ Python Casting](https://www.w3schools.com/python/python_casting.asp) * [ Python Strings](https://www.w3schools.com/python/python_strings.asp) * [ Python User Input](https://www.w3schools.com/python/pythonuserinput.asp) :::  &lt;br&gt; &lt;hr&gt; &lt;br&gt;  ##  Project 1: Band Name Generator  ::: {.panel-tabset}  ###  Die Aufgabe Erstelle einen Bandnamen-Generator, der Benutzereingaben verarbeitet.  1. Erstelle eine Begr��ung f�r dein Programm. 2. Frage den Nutzer nach der Stadt, in der er aufgewachsen ist. 3. Frage den Nutzer nach dem Namen seines ersten Haustiers. 4. Kombiniere die Namen der Stadt und des Haustiers und zeige ihnen ihren Bandnamen an.  ###  Die L�sung python print(\"Welcome to the Band Name Generator.\") city = input(\"What's the name of the city you grew up in?\\n\") pet = input(\"What's your pet's name?\\n\") print(\"Your band name could be \" + city + \" \" + pet)   :::"
+  },
+  {
+    "objectID": "vibecoding/index.html",
+    "href": "vibecoding/index.html",
     "title": "Vibecoding",
     "section": "",
-    "text": "In diesem Kurs lernst du: - Live-Coding mit Sound und Musik - Integration von AI-Tools in kreative Projekte - Interaktive Performances und Installations-Art - Praktische Workshops und Hands-on Projects\nWähle eine Lektion, um loszulegen!"
-  },
-  {
-    "objectID": "vibecoding/lessons/03_ai_tools.html#ai-in-der-musikproduktion",
-    "href": "vibecoding/lessons/03_ai_tools.html#ai-in-der-musikproduktion",
-    "title": "Week 3: AI & Creative Tools",
-    "section": "🎵 AI in der Musikproduktion",
-    "text": "🎵 AI in der Musikproduktion\nKünstliche Intelligenz eröffnet neue Möglichkeiten für: - Musik-Generierung – Automatische Komposition - Sound-Synthese – Neue Klang-Welten - Stil-Transfer – Songs im Stil von Künstlern - Lyriks & Harmonien – Assistierte Songwriting\n\nBeliebte AI-Tools\n\nOpenAI Jukebox – Musik-Generierung\nAIVA – Komponist-Assistent\nGoogle Magenta – Research & Tools\nRunwayML – Kreative AI-Suite"
-  },
-  {
-    "objectID": "vibecoding/lessons/03_ai_tools.html#ethische-fragen",
-    "href": "vibecoding/lessons/03_ai_tools.html#ethische-fragen",
-    "title": "Week 3: AI & Creative Tools",
-    "section": "🔮 Ethische Fragen",
-    "text": "🔮 Ethische Fragen\n\n\n\n\n\n\nNote\n\n\n\nWichtig: Bei der Nutzung von AI in kreativen Projekten sollten wir überlegen: - Urheberrecht und Attribution - Authentizität und künstlerischer Ausdruck - Datenschutz und Trainings-Daten - Impact auf Kreative und Künstler"
-  },
-  {
-    "objectID": "vibecoding/lessons/01_intro.html#learning-curriculum",
-    "href": "vibecoding/lessons/01_intro.html#learning-curriculum",
-    "title": "Week 1: Vibecoding Basics",
-    "section": "🎧 Learning Curriculum",
-    "text": "🎧 Learning Curriculum\nErforsche die Grundlagen von Vibecoding und Live-Coding mit Sound.\n\n\n\nFundamentals\n\n🎼 Sound Basics\n💻 Live Coding Einführung\n🎹 MIDI & Audio Protokolle\n🔊 Audio Processing\n\n\n\nTools & Technologien\n\n🐍 SuperCollider\n🔧 Pure Data (Pd)\n🎼 Sonic Pi\n🤖 AI & Musik Generation"
-  },
-  {
-    "objectID": "vibecoding/lessons/01_intro.html#project-1-einfacher-synthesizer",
-    "href": "vibecoding/lessons/01_intro.html#project-1-einfacher-synthesizer",
-    "title": "Week 1: Vibecoding Basics",
-    "section": "🎸 Project 1: Einfacher Synthesizer",
-    "text": "🎸 Project 1: Einfacher Synthesizer\n\n📝 Die Aufgabe💡 Konzept🔊 Sonicpi-Beispiel\n\n\nErstelle einen einfachen Synthesizer, der Audiofrequenzen generiert.\n\nVerstehe die Grundlagen von Frequenzen und Wellenlängen.\nImplementiere einen simplen Sinus-Wellen-Generator.\nFüge interaktive Steuerung (Frequenz, Lautstärke) hinzu.\nExperimentiere mit verschiedenen Wellenformen.\n\n\n\nEin Synthesizer ist ein elektronisches Gerät, das Sound durch: - Oszillatoren (Ton-Generierung) - Filter (Klangformung) - Hüllung (Lautstärke-Kurven)\nerzeugt.\n\n\nlive_loop :basic_synth do\n  frequency = rrand(100, 500)\n  use_synth :square\n  play frequency, amp: 0.5, release: 0.3\n  sleep 1\nend"
+    "text": "Entdecke die kreative Schnittstelle zwischen Musik, Code und Künstlicher Intelligenz. Vibecoding kombiniert Live-Coding-Sessions mit musikalischen Experimenten und modernen AI-Tools.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 1: Vibecoding Basics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2: Live Coding Sessions\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3: AI & Creative Tools\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Python Kurs",
+      "Vibecoding"
+    ]
   },
   {
     "objectID": "vibecoding/lessons/02_live_coding.html#was-ist-live-coding",

@@ -7,21 +7,20 @@ execute:
   freeze: true
 ---
 
-<style>
-  .stads-hero-title {
-    font-size: 4rem !important;
-    font-weight: 800 !important;
-    line-height: 1.0 !important;
-    margin: 0 !important;
-    display: block !important;
-  }
-</style>
+<br><br><br><br><br>
 
-::: {.column-screen .text-white .py-5 .text-center style="background-color: #203765;"}
-# STADS Education {.stads-hero-title}
-### Code. Analyze. Lead.
 
-[Explore Courses](#courses){.btn .btn-light .btn-lg} [About STADS](https://stads.de){.btn .btn-outline-light .btn-lg}
+
+
+::: {.column-screen .hero-vibe}
+::: {.hero-content}
+<div class="hero-title">Learn. Code. Vibe.</div>
+<div class="hero-subtitle">Die Zukunft der Softwareentwicklung bei STADS.</div>
+
+<br>
+
+[Zu den Kursen](#courses){.btn .hero-btn}
+:::
 :::
 
 <br><br><br>
@@ -37,24 +36,26 @@ execute:
 
 <br>
 
-::: {layout-ncol=2}
-::: {.card .p-5 .text-center .shadow-sm style="min-height: 400px; display: flex; flex-direction: column; justify-content: center;"}
+::: {layout-ncol="2" .flex-gap-20}
+
+::: {.card .p-5 .text-center .shadow-sm .card-flex}
+<div>
 ## 🐍 Python Fundamentals
 Master the world's most popular language for data science. From basics to advanced data manipulation with Pandas.
+</div>
 
-<br>
-
-[View Course Details](python/index.qmd){.btn .btn-lg style="background-color: #7388B0; color: white; border: none;"}
+[View Course Details](python/index.qmd){.btn .btn-lg .btn-custom}
 :::
 
-::: {.card .p-5 .text-center .shadow-sm style="min-height: 400px; display: flex; flex-direction: column; justify-content: center;"}
+::: {.card .p-5 .text-center .shadow-sm .card-flex}
+<div>
 ## 🤖 AI & Vibecoding
 Learn to build software at the speed of thought. Master LLMs, AI-assistants, and modern developer workflows.
+</div>
 
-<br>
-
-[View Course Details](vibecoding/index.qmd){.btn .btn-lg style="background-color: #7388B0; color: white; border: none;"}
+[View Course Details](vibecoding/index.qmd){.btn .btn-lg .btn-custom}
 :::
+
 :::
 :::
 
@@ -72,7 +73,7 @@ At STADS, we believe that data literacy is the universal language of the 21st ce
 #### **Bridging the Gap**
 We recognize the growing divide between academic theory and industry demands. While universities provide the conceptual foundation, the fast-paced world of technology requires hands-on agility. STADS Education serves as the vital bridge, translating complex statistical concepts into executable code. By focusing on modern tools like Python, Version Control with Git, and the integration of Artificial Intelligence, we ensure that our participants are not just observers of the digital transformation, but active architects of it.
 
-::: {.column-page .text-center style="margin-top: 100px; margin-bottom: 100px;"}
+::: {.column-page .text-center .page-margin}
 
 <br>
 
