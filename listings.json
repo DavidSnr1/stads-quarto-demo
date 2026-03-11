@@ -1,0 +1,24 @@
+[
+  {
+    "listing": "/python/index.html",
+    "items": [
+      "/python/lessons/01basics1.html",
+      "/python/lessons/02basics2.html",
+      "/python/lessons/03basics3.html",
+      "/python/lessons/04basics4.html",
+      "/python/lessons/05pandas1.html",
+      "/python/lessons/06pandas2.html",
+      "/python/lessons/07Visualisations.html",
+      "/python/lessons/08WrapUp_Refresher.html",
+      "/python/lessons/09QA_SampleExam.html"
+    ]
+  },
+  {
+    "listing": "/vibecoding/index.html",
+    "items": [
+      "/vibecoding/lessons/01_intro.html",
+      "/vibecoding/lessons/02_live_coding.html",
+      "/vibecoding/lessons/03_ai_tools.html"
+    ]
+  }
+]
