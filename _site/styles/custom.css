@@ -107,3 +107,35 @@
     transform: scale(1.05);
     background-color: #f8f9fa !important;
 }
+
+
+/* Der Container nutzt CSS Grid für perfekte Gleichheit */
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  width: 100%;
+}
+
+/* Die Karten innerhalb des Grids */
+.card.card-flex {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Schiebt Button nach unten */
+  align-items: center;
+  width: 100%; /* Zwingt beide auf die gleiche Breite */
+  box-sizing: border-box;
+}
+
+/* Fix für Mobile: Verhindert das "Aneinanderkleben" */
+@media (max-width: 768px) {
+  .course-grid {
+    grid-template-columns: 1fr; /* Nur eine Spalte auf Mobile */
+  }
+  
+  .card.card-flex {
+    margin-bottom: 20px;
+    width: 100% !important; /* Volle Breite des Bildschirms minus Padding */
+  }
+}

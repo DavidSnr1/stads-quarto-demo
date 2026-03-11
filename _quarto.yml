@@ -20,23 +20,7 @@ website:
       - icon: github
         href: https://github.com/DavidSnr1/stads-quarto-demo
 
-  # Deine bestehende Sidebar bleibt erhalten
-  sidebar:
-    - id: sidebar
-      title: "Navigation"
-      style: "docked"
-      contents:
-        - python/index.qmd
-        - section: "Python Weeks"
-          contents:
-            - python/01_basics1.qmd
-            - python/02_basics2.qmd
-        - vibecoding/index.qmd
-        - section: "Vibe Weeks"
-          contents:
-            - python/01_intro.qmd
-            - python/02_live_coding.qmd
-            - python/03_ai_tools.qmd
+  
 
 format:
   html:
