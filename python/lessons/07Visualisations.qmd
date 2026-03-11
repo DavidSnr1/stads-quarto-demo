@@ -1,6 +1,6 @@
 ---
 title: ""
-image: "../../images/py_kurs_cover07.png"
+image: "../../images/py_kurs_cover07.webp"
 toc: true
 toc-depth: 3
 page-layout: full
