@@ -4,8 +4,15 @@ subtitle: "From Zero to Data Hero"
 layout: full
 listing:
   contents: 
-    - "01_basics1.qmd"
-    - "02_basics2.qmd"
+    - "01basics1.qmd"
+    - "02basics2.qmd"
+    - "03basics3.qmd"
+    - "04basics4.qmd"
+    - "05pandas1.qmd"
+    - "06pandas2.qmd"
+    - "07Visualisations.qmd"
+    - "08WrapUp_Refresher.qmd"
+    - "09QA_SampleExam.qmd"
   type: grid           # Erzeugt schöne Karten für jedes Kapitel
   sort: "filename"     # Sortiert nach 01, 02...
   categories: false

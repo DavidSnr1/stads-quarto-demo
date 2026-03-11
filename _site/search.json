@@ -28,39 +28,85 @@
     "text": "🎸 Project 1: Einfacher Synthesizer\n\n📝 Die Aufgabe💡 Konzept🔊 Sonicpi-Beispiel\n\n\nErstelle einen einfachen Synthesizer, der Audiofrequenzen generiert.\n\nVerstehe die Grundlagen von Frequenzen und Wellenlängen.\nImplementiere einen simplen Sinus-Wellen-Generator.\nFüge interaktive Steuerung (Frequenz, Lautstärke) hinzu.\nExperimentiere mit verschiedenen Wellenformen.\n\n\n\nEin Synthesizer ist ein elektronisches Gerät, das Sound durch: - Oszillatoren (Ton-Generierung) - Filter (Klangformung) - Hüllung (Lautstärke-Kurven)\nerzeugt.\n\n\nlive_loop :basic_synth do\n  frequency = rrand(100, 500)\n  use_synth :square\n  play frequency, amp: 0.5, release: 0.3\n  sleep 1\nend"
   },
   {
-    "objectID": "python/lessons/02_basics2.html#project-1-band-name-generator",
-    "href": "python/lessons/02_basics2.html#project-1-band-name-generator",
-    "title": "Week 2: Python Basics II",
+    "objectID": "python/lessons/09_basics9.html#project-1-band-name-generator",
+    "href": "python/lessons/09_basics9.html#project-1-band-name-generator",
+    "title": "Week 9: Python Basics I",
     "section": "🎸 Project 1: Band Name Generator",
     "text": "🎸 Project 1: Band Name Generator\n\n📝 Die Aufgabe💡 Die Lösung\n\n\nErstelle einen Bandnamen-Generator, der Benutzereingaben verarbeitet.\n\nErstelle eine Begrüßung für dein Programm.\nFrage den Nutzer nach der Stadt, in der er aufgewachsen ist.\nFrage den Nutzer nach dem Namen seines ersten Haustiers.\nKombiniere die Namen der Stadt und des Haustiers und zeige ihnen ihren Bandnamen an.\n\n\n\nprint(\"Welcome to the Band Name Generator.\")\ncity = input(\"What's the name of the city you grew up in?\\n\")\npet = input(\"What's your pet's name?\\n\")\nprint(\"Your band name could be \" + city + \" \" + pet)"
   },
   {
-    "objectID": "python/lessons/02_basics2.html#material",
-    "href": "python/lessons/02_basics2.html#material",
-    "title": "Week 2: Python Basics II",
+    "objectID": "python/lessons/09_basics9.html#material",
+    "href": "python/lessons/09_basics9.html#material",
+    "title": "Week 9: Python Basics I",
     "section": "📥 Material",
     "text": "📥 Material\n\n\n\n📽️ Introductory Slides\n\n\n🔗 w3schools Tutorial"
   },
   {
-    "objectID": "python/lessons/01_basics1.html#project-1-band-name-generator",
-    "href": "python/lessons/01_basics1.html#project-1-band-name-generator",
-    "title": "Week 1: Python Basics I",
+    "objectID": "python/lessons/07_basics7.html#project-1-band-name-generator",
+    "href": "python/lessons/07_basics7.html#project-1-band-name-generator",
+    "title": "Week 7: Python Basics I",
     "section": "🎸 Project 1: Band Name Generator",
     "text": "🎸 Project 1: Band Name Generator\n\n📝 Die Aufgabe💡 Die Lösung\n\n\nErstelle einen Bandnamen-Generator, der Benutzereingaben verarbeitet.\n\nErstelle eine Begrüßung für dein Programm.\nFrage den Nutzer nach der Stadt, in der er aufgewachsen ist.\nFrage den Nutzer nach dem Namen seines ersten Haustiers.\nKombiniere die Namen der Stadt und des Haustiers und zeige ihnen ihren Bandnamen an.\n\n\n\nprint(\"Welcome to the Band Name Generator.\")\ncity = input(\"What's the name of the city you grew up in?\\n\")\npet = input(\"What's your pet's name?\\n\")\nprint(\"Your band name could be \" + city + \" \" + pet)"
   },
   {
-    "objectID": "python/lessons/01_basics1.html#material",
-    "href": "python/lessons/01_basics1.html#material",
-    "title": "Week 1: Python Basics I",
+    "objectID": "python/lessons/07_basics7.html#material",
+    "href": "python/lessons/07_basics7.html#material",
+    "title": "Week 7: Python Basics I",
     "section": "📥 Material",
     "text": "📥 Material\n\n\n\n📽️ Introductory Slides\n\n\n🔗 w3schools Tutorial"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Current Course Portfolio",
+    "objectID": "python/lessons/05_basics5.html#project-1-band-name-generator",
+    "href": "python/lessons/05_basics5.html#project-1-band-name-generator",
+    "title": "Week 5: Python Basics I",
+    "section": "🎸 Project 1: Band Name Generator",
+    "text": "🎸 Project 1: Band Name Generator\n\n📝 Die Aufgabe💡 Die Lösung\n\n\nErstelle einen Bandnamen-Generator, der Benutzereingaben verarbeitet.\n\nErstelle eine Begrüßung für dein Programm.\nFrage den Nutzer nach der Stadt, in der er aufgewachsen ist.\nFrage den Nutzer nach dem Namen seines ersten Haustiers.\nKombiniere die Namen der Stadt und des Haustiers und zeige ihnen ihren Bandnamen an.\n\n\n\nprint(\"Welcome to the Band Name Generator.\")\ncity = input(\"What's the name of the city you grew up in?\\n\")\npet = input(\"What's your pet's name?\\n\")\nprint(\"Your band name could be \" + city + \" \" + pet)"
+  },
+  {
+    "objectID": "python/lessons/05_basics5.html#material",
+    "href": "python/lessons/05_basics5.html#material",
+    "title": "Week 5: Python Basics I",
+    "section": "📥 Material",
+    "text": "📥 Material\n\n\n\n📽️ Introductory Slides\n\n\n🔗 w3schools Tutorial"
+  },
+  {
+    "objectID": "python/lessons/03_basics3.html#project-1-band-name-generator",
+    "href": "python/lessons/03_basics3.html#project-1-band-name-generator",
+    "title": "Week 3: Python Basics I",
+    "section": "🎸 Project 1: Band Name Generator",
+    "text": "🎸 Project 1: Band Name Generator\n\n📝 Die Aufgabe💡 Die Lösung\n\n\nErstelle einen Bandnamen-Generator, der Benutzereingaben verarbeitet.\n\nErstelle eine Begrüßung für dein Programm.\nFrage den Nutzer nach der Stadt, in der er aufgewachsen ist.\nFrage den Nutzer nach dem Namen seines ersten Haustiers.\nKombiniere die Namen der Stadt und des Haustiers und zeige ihnen ihren Bandnamen an.\n\n\n\nprint(\"Welcome to the Band Name Generator.\")\ncity = input(\"What's the name of the city you grew up in?\\n\")\npet = input(\"What's your pet's name?\\n\")\nprint(\"Your band name could be \" + city + \" \" + pet)"
+  },
+  {
+    "objectID": "python/lessons/03_basics3.html#material",
+    "href": "python/lessons/03_basics3.html#material",
+    "title": "Week 3: Python Basics I",
+    "section": "📥 Material",
+    "text": "📥 Material\n\n\n\n📽️ Introductory Slides\n\n\n🔗 w3schools Tutorial"
+  },
+  {
+    "objectID": "python/lessons/01_intro.html",
+    "href": "python/lessons/01_intro.html",
+    "title": "",
     "section": "",
-    "text": "Learn. Code. Vibe.\n\n\nDie Zukunft der Softwareentwicklung bei STADS.\n\n\nZu den Kursen"
+    "text": "��--- title: “” toc: true toc-depth: 3 page-layout: full ---  &lt;br&gt;  ::: {.d-flex .gap-2} [&lt;��� Home](../../index.qmd){.btn .btn-outline-secondary .btn-sm} [=�� Python Overview](../index.qmd){.btn .btn-outline-secondary .btn-sm} :::  &lt;br&gt;  #  Week 1: Python Basics I The foundation of your Python journey.  &lt;br&gt;  ##  Learning Curriculum Klicke auf die Themen, um direkt zu den interaktiven �bungen auf w3schools zu gelangen.  ::: {layout-ncol=2} ### �W@x (Fundamentals) * [ Python Syntax](https://www.w3schools.com/python/python_syntax.asp) * [ Python Comments](https://www.w3schools.com/python/python_comments.asp) * [ Python Variables](https://www.w3schools.com/python/python_variables.asp) * [ Python Data Types](https://www.w3schools.com/python/python_datatypes.asp)  ### Details * [ Python Numbers](https://www.w3schools.com/python/python_numbers.asp) * [ Python Casting](https://www.w3schools.com/python/python_casting.asp) * [ Python Strings](https://www.w3schools.com/python/python_strings.asp) * [ Python User Input](https://www.w3schools.com/python/pythonuserinput.asp) :::  &lt;br&gt; &lt;hr&gt; &lt;br&gt;  ##  Project 1: Band Name Generator  ::: {.panel-tabset}  ###  Die Aufgabe Erstelle einen Bandnamen-Generator, der Benutzereingaben verarbeitet.  1. Erstelle eine Begr��ung f�r dein Programm. 2. Frage den Nutzer nach der Stadt, in der er aufgewachsen ist. 3. Frage den Nutzer nach dem Namen seines ersten Haustiers. 4. Kombiniere die Namen der Stadt und des Haustiers und zeige ihnen ihren Bandnamen an.  ###  Die L�sung python print(\"Welcome to the Band Name Generator.\") city = input(\"What's the name of the city you grew up in?\\n\") pet = input(\"What's your pet's name?\\n\") print(\"Your band name could be \" + city + \" \" + pet)   :::"
+  },
+  {
+    "objectID": "python/index.html",
+    "href": "python/index.html",
+    "title": "Python Fundamentals",
+    "section": "",
+    "text": "Willkommen beim STADS Python Kurs! Dieser Kurs ist in logische Etappen unterteilt. Wähle unten ein Kapitel aus, um zu starten.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 1: Python Basics I\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2: Python Basics II\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3: Python Basics III\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 4: Python Basics IV\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5: Pandas I\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 6: Pandas II\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 7: Visualisations\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 8: Wrap-Up & Refresher\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 9: Q&A and Sample Exam\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Python Kurs",
+      "Python Fundamentals"
+    ]
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Contact\nKontaktiere uns für Fragen zu unseren Kursen.\n(Seite in Bearbeitung)"
   },
   {
     "objectID": "index.html#python-fundamentals",
@@ -77,29 +123,74 @@
     "text": "🤖 AI & Vibecoding\nLearn to build software at the speed of thought. Master LLMs, AI-assistants, and modern developer workflows."
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "Contact\nKontaktiere uns für Fragen zu unseren Kursen.\n(Seite in Bearbeitung)"
+    "objectID": "python/lessons/01_basics1.html#project-1-band-name-generator",
+    "href": "python/lessons/01_basics1.html#project-1-band-name-generator",
+    "title": "Week 1: Python Basics I",
+    "section": "🎸 Project 1: Band Name Generator",
+    "text": "🎸 Project 1: Band Name Generator\n\n📝 Die Aufgabe💡 Die Lösung\n\n\nErstelle einen Bandnamen-Generator, der Benutzereingaben verarbeitet.\n\nErstelle eine Begrüßung für dein Programm.\nFrage den Nutzer nach der Stadt, in der er aufgewachsen ist.\nFrage den Nutzer nach dem Namen seines ersten Haustiers.\nKombiniere die Namen der Stadt und des Haustiers und zeige ihnen ihren Bandnamen an.\n\n\n\nprint(\"Welcome to the Band Name Generator.\")\ncity = input(\"What's the name of the city you grew up in?\\n\")\npet = input(\"What's your pet's name?\\n\")\nprint(\"Your band name could be \" + city + \" \" + pet)"
   },
   {
-    "objectID": "python/index.html",
-    "href": "python/index.html",
-    "title": "Python Fundamentals",
-    "section": "",
-    "text": "Willkommen beim STADS Python Kurs! Dieser Kurs ist in logische Etappen unterteilt. Wähle unten ein Kapitel aus, um zu starten.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 1: Python Basics I\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2: Python Basics II\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Python Kurs",
-      "Python Fundamentals"
-    ]
+    "objectID": "python/lessons/01_basics1.html#material",
+    "href": "python/lessons/01_basics1.html#material",
+    "title": "Week 1: Python Basics I",
+    "section": "📥 Material",
+    "text": "📥 Material\n\n\n\n📽️ Introductory Slides\n\n\n🔗 w3schools Tutorial"
   },
   {
-    "objectID": "python/lessons/01_intro.html",
-    "href": "python/lessons/01_intro.html",
-    "title": "",
-    "section": "",
-    "text": "��--- title: “” toc: true toc-depth: 3 page-layout: full ---  &lt;br&gt;  ::: {.d-flex .gap-2} [&lt;��� Home](../../index.qmd){.btn .btn-outline-secondary .btn-sm} [=�� Python Overview](../index.qmd){.btn .btn-outline-secondary .btn-sm} :::  &lt;br&gt;  #  Week 1: Python Basics I The foundation of your Python journey.  &lt;br&gt;  ##  Learning Curriculum Klicke auf die Themen, um direkt zu den interaktiven �bungen auf w3schools zu gelangen.  ::: {layout-ncol=2} ### �W@x (Fundamentals) * [ Python Syntax](https://www.w3schools.com/python/python_syntax.asp) * [ Python Comments](https://www.w3schools.com/python/python_comments.asp) * [ Python Variables](https://www.w3schools.com/python/python_variables.asp) * [ Python Data Types](https://www.w3schools.com/python/python_datatypes.asp)  ### Details * [ Python Numbers](https://www.w3schools.com/python/python_numbers.asp) * [ Python Casting](https://www.w3schools.com/python/python_casting.asp) * [ Python Strings](https://www.w3schools.com/python/python_strings.asp) * [ Python User Input](https://www.w3schools.com/python/pythonuserinput.asp) :::  &lt;br&gt; &lt;hr&gt; &lt;br&gt;  ##  Project 1: Band Name Generator  ::: {.panel-tabset}  ###  Die Aufgabe Erstelle einen Bandnamen-Generator, der Benutzereingaben verarbeitet.  1. Erstelle eine Begr��ung f�r dein Programm. 2. Frage den Nutzer nach der Stadt, in der er aufgewachsen ist. 3. Frage den Nutzer nach dem Namen seines ersten Haustiers. 4. Kombiniere die Namen der Stadt und des Haustiers und zeige ihnen ihren Bandnamen an.  ###  Die L�sung python print(\"Welcome to the Band Name Generator.\") city = input(\"What's the name of the city you grew up in?\\n\") pet = input(\"What's your pet's name?\\n\") print(\"Your band name could be \" + city + \" \" + pet)   :::"
+    "objectID": "python/lessons/02_basics2.html#project-1-band-name-generator",
+    "href": "python/lessons/02_basics2.html#project-1-band-name-generator",
+    "title": "Week 2: Python Basics II",
+    "section": "🎸 Project 1: Band Name Generator",
+    "text": "🎸 Project 1: Band Name Generator\n\n📝 Die Aufgabe💡 Die Lösung\n\n\nErstelle einen Bandnamen-Generator, der Benutzereingaben verarbeitet.\n\nErstelle eine Begrüßung für dein Programm.\nFrage den Nutzer nach der Stadt, in der er aufgewachsen ist.\nFrage den Nutzer nach dem Namen seines ersten Haustiers.\nKombiniere die Namen der Stadt und des Haustiers und zeige ihnen ihren Bandnamen an.\n\n\n\nprint(\"Welcome to the Band Name Generator.\")\ncity = input(\"What's the name of the city you grew up in?\\n\")\npet = input(\"What's your pet's name?\\n\")\nprint(\"Your band name could be \" + city + \" \" + pet)"
+  },
+  {
+    "objectID": "python/lessons/02_basics2.html#material",
+    "href": "python/lessons/02_basics2.html#material",
+    "title": "Week 2: Python Basics II",
+    "section": "📥 Material",
+    "text": "📥 Material\n\n\n\n📽️ Introductory Slides\n\n\n🔗 w3schools Tutorial"
+  },
+  {
+    "objectID": "python/lessons/04_basics4.html#project-1-band-name-generator",
+    "href": "python/lessons/04_basics4.html#project-1-band-name-generator",
+    "title": "Week 4: Python Basics I",
+    "section": "🎸 Project 1: Band Name Generator",
+    "text": "🎸 Project 1: Band Name Generator\n\n📝 Die Aufgabe💡 Die Lösung\n\n\nErstelle einen Bandnamen-Generator, der Benutzereingaben verarbeitet.\n\nErstelle eine Begrüßung für dein Programm.\nFrage den Nutzer nach der Stadt, in der er aufgewachsen ist.\nFrage den Nutzer nach dem Namen seines ersten Haustiers.\nKombiniere die Namen der Stadt und des Haustiers und zeige ihnen ihren Bandnamen an.\n\n\n\nprint(\"Welcome to the Band Name Generator.\")\ncity = input(\"What's the name of the city you grew up in?\\n\")\npet = input(\"What's your pet's name?\\n\")\nprint(\"Your band name could be \" + city + \" \" + pet)"
+  },
+  {
+    "objectID": "python/lessons/04_basics4.html#material",
+    "href": "python/lessons/04_basics4.html#material",
+    "title": "Week 4: Python Basics I",
+    "section": "📥 Material",
+    "text": "📥 Material\n\n\n\n📽️ Introductory Slides\n\n\n🔗 w3schools Tutorial"
+  },
+  {
+    "objectID": "python/lessons/06_basics6.html#project-1-band-name-generator",
+    "href": "python/lessons/06_basics6.html#project-1-band-name-generator",
+    "title": "Week 6: Python Basics I",
+    "section": "🎸 Project 1: Band Name Generator",
+    "text": "🎸 Project 1: Band Name Generator\n\n📝 Die Aufgabe💡 Die Lösung\n\n\nErstelle einen Bandnamen-Generator, der Benutzereingaben verarbeitet.\n\nErstelle eine Begrüßung für dein Programm.\nFrage den Nutzer nach der Stadt, in der er aufgewachsen ist.\nFrage den Nutzer nach dem Namen seines ersten Haustiers.\nKombiniere die Namen der Stadt und des Haustiers und zeige ihnen ihren Bandnamen an.\n\n\n\nprint(\"Welcome to the Band Name Generator.\")\ncity = input(\"What's the name of the city you grew up in?\\n\")\npet = input(\"What's your pet's name?\\n\")\nprint(\"Your band name could be \" + city + \" \" + pet)"
+  },
+  {
+    "objectID": "python/lessons/06_basics6.html#material",
+    "href": "python/lessons/06_basics6.html#material",
+    "title": "Week 6: Python Basics I",
+    "section": "📥 Material",
+    "text": "📥 Material\n\n\n\n📽️ Introductory Slides\n\n\n🔗 w3schools Tutorial"
+  },
+  {
+    "objectID": "python/lessons/08_basics8.html#project-1-band-name-generator",
+    "href": "python/lessons/08_basics8.html#project-1-band-name-generator",
+    "title": "Week 8: Python Basics I",
+    "section": "🎸 Project 1: Band Name Generator",
+    "text": "🎸 Project 1: Band Name Generator\n\n📝 Die Aufgabe💡 Die Lösung\n\n\nErstelle einen Bandnamen-Generator, der Benutzereingaben verarbeitet.\n\nErstelle eine Begrüßung für dein Programm.\nFrage den Nutzer nach der Stadt, in der er aufgewachsen ist.\nFrage den Nutzer nach dem Namen seines ersten Haustiers.\nKombiniere die Namen der Stadt und des Haustiers und zeige ihnen ihren Bandnamen an.\n\n\n\nprint(\"Welcome to the Band Name Generator.\")\ncity = input(\"What's the name of the city you grew up in?\\n\")\npet = input(\"What's your pet's name?\\n\")\nprint(\"Your band name could be \" + city + \" \" + pet)"
+  },
+  {
+    "objectID": "python/lessons/08_basics8.html#material",
+    "href": "python/lessons/08_basics8.html#material",
+    "title": "Week 8: Python Basics I",
+    "section": "📥 Material",
+    "text": "📥 Material\n\n\n\n📽️ Introductory Slides\n\n\n🔗 w3schools Tutorial"
   },
   {
     "objectID": "vibecoding/index.html",
@@ -125,5 +216,320 @@
     "title": "Week 2: Live Coding Sessions",
     "section": "🎵 Live Coding Tools",
     "text": "🎵 Live Coding Tools\n\n\n\nPopuläre Frameworks\n\nSonic Pi – einsteigerfreundlich\nSuperCollider – mächtig\nTidalCycles – Pattern-basiert\nPure Data (Pd) – visuell\n\n\n\nEinsatzgebiete\n\nElektronische Live-Musik\nAudio-Visualisierung\nInstallations-Art\nExperimentelle Performances"
+  },
+  {
+    "objectID": "python/lessons/Visualisations.html#project-1-band-name-generator",
+    "href": "python/lessons/Visualisations.html#project-1-band-name-generator",
+    "title": "Week 7: Visualisations",
+    "section": "🎸 Project 1: Band Name Generator",
+    "text": "🎸 Project 1: Band Name Generator\n\n📝 Die Aufgabe💡 Die Lösung\n\n\nErstelle einen Bandnamen-Generator, der Benutzereingaben verarbeitet.\n\nErstelle eine Begrüßung für dein Programm.\nFrage den Nutzer nach der Stadt, in der er aufgewachsen ist.\nFrage den Nutzer nach dem Namen seines ersten Haustiers.\nKombiniere die Namen der Stadt und des Haustiers und zeige ihnen ihren Bandnamen an.\n\n\n\nprint(\"Welcome to the Band Name Generator.\")\ncity = input(\"What's the name of the city you grew up in?\\n\")\npet = input(\"What's your pet's name?\\n\")\nprint(\"Your band name could be \" + city + \" \" + pet)"
+  },
+  {
+    "objectID": "python/lessons/Visualisations.html#material",
+    "href": "python/lessons/Visualisations.html#material",
+    "title": "Week 7: Visualisations",
+    "section": "📥 Material",
+    "text": "📥 Material\n\n\n\n📽️ Introductory Slides\n\n\n🔗 w3schools Tutorial"
+  },
+  {
+    "objectID": "python/lessons/pandas2.html#project-1-band-name-generator",
+    "href": "python/lessons/pandas2.html#project-1-band-name-generator",
+    "title": "Week 6: Pandas II",
+    "section": "🎸 Project 1: Band Name Generator",
+    "text": "🎸 Project 1: Band Name Generator\n\n📝 Die Aufgabe💡 Die Lösung\n\n\nErstelle einen Bandnamen-Generator, der Benutzereingaben verarbeitet.\n\nErstelle eine Begrüßung für dein Programm.\nFrage den Nutzer nach der Stadt, in der er aufgewachsen ist.\nFrage den Nutzer nach dem Namen seines ersten Haustiers.\nKombiniere die Namen der Stadt und des Haustiers und zeige ihnen ihren Bandnamen an.\n\n\n\nprint(\"Welcome to the Band Name Generator.\")\ncity = input(\"What's the name of the city you grew up in?\\n\")\npet = input(\"What's your pet's name?\\n\")\nprint(\"Your band name could be \" + city + \" \" + pet)"
+  },
+  {
+    "objectID": "python/lessons/pandas2.html#material",
+    "href": "python/lessons/pandas2.html#material",
+    "title": "Week 6: Pandas II",
+    "section": "📥 Material",
+    "text": "📥 Material\n\n\n\n📽️ Introductory Slides\n\n\n🔗 w3schools Tutorial"
+  },
+  {
+    "objectID": "python/lessons/basics4.html#project-1-band-name-generator",
+    "href": "python/lessons/basics4.html#project-1-band-name-generator",
+    "title": "Week 4: Python Basics IV",
+    "section": "🎸 Project 1: Band Name Generator",
+    "text": "🎸 Project 1: Band Name Generator\n\n📝 Die Aufgabe💡 Die Lösung\n\n\nErstelle einen Bandnamen-Generator, der Benutzereingaben verarbeitet.\n\nErstelle eine Begrüßung für dein Programm.\nFrage den Nutzer nach der Stadt, in der er aufgewachsen ist.\nFrage den Nutzer nach dem Namen seines ersten Haustiers.\nKombiniere die Namen der Stadt und des Haustiers und zeige ihnen ihren Bandnamen an.\n\n\n\nprint(\"Welcome to the Band Name Generator.\")\ncity = input(\"What's the name of the city you grew up in?\\n\")\npet = input(\"What's your pet's name?\\n\")\nprint(\"Your band name could be \" + city + \" \" + pet)"
+  },
+  {
+    "objectID": "python/lessons/basics4.html#material",
+    "href": "python/lessons/basics4.html#material",
+    "title": "Week 4: Python Basics IV",
+    "section": "📥 Material",
+    "text": "📥 Material\n\n\n\n📽️ Introductory Slides\n\n\n🔗 w3schools Tutorial"
+  },
+  {
+    "objectID": "python/lessons/basics2.html#project-1-band-name-generator",
+    "href": "python/lessons/basics2.html#project-1-band-name-generator",
+    "title": "Week 2: Python Basics II",
+    "section": "🎸 Project 1: Band Name Generator",
+    "text": "🎸 Project 1: Band Name Generator\n\n📝 Die Aufgabe💡 Die Lösung\n\n\nErstelle einen Bandnamen-Generator, der Benutzereingaben verarbeitet.\n\nErstelle eine Begrüßung für dein Programm.\nFrage den Nutzer nach der Stadt, in der er aufgewachsen ist.\nFrage den Nutzer nach dem Namen seines ersten Haustiers.\nKombiniere die Namen der Stadt und des Haustiers und zeige ihnen ihren Bandnamen an.\n\n\n\nprint(\"Welcome to the Band Name Generator.\")\ncity = input(\"What's the name of the city you grew up in?\\n\")\npet = input(\"What's your pet's name?\\n\")\nprint(\"Your band name could be \" + city + \" \" + pet)"
+  },
+  {
+    "objectID": "python/lessons/basics2.html#material",
+    "href": "python/lessons/basics2.html#material",
+    "title": "Week 2: Python Basics II",
+    "section": "📥 Material",
+    "text": "📥 Material\n\n\n\n📽️ Introductory Slides\n\n\n🔗 w3schools Tutorial"
+  },
+  {
+    "objectID": "python/lessons/basics1.html#project-1-band-name-generator",
+    "href": "python/lessons/basics1.html#project-1-band-name-generator",
+    "title": "Week 1: Python Basics I",
+    "section": "🎸 Project 1: Band Name Generator",
+    "text": "🎸 Project 1: Band Name Generator\n\n📝 Die Aufgabe💡 Die Lösung\n\n\nErstelle einen Bandnamen-Generator, der Benutzereingaben verarbeitet.\n\nErstelle eine Begrüßung für dein Programm.\nFrage den Nutzer nach der Stadt, in der er aufgewachsen ist.\nFrage den Nutzer nach dem Namen seines ersten Haustiers.\nKombiniere die Namen der Stadt und des Haustiers und zeige ihnen ihren Bandnamen an.\n\n\n\nprint(\"Welcome to the Band Name Generator.\")\ncity = input(\"What's the name of the city you grew up in?\\n\")\npet = input(\"What's your pet's name?\\n\")\nprint(\"Your band name could be \" + city + \" \" + pet)"
+  },
+  {
+    "objectID": "python/lessons/basics1.html#material",
+    "href": "python/lessons/basics1.html#material",
+    "title": "Week 1: Python Basics I",
+    "section": "📥 Material",
+    "text": "📥 Material\n\n\n\n📽️ Introductory Slides\n\n\n🔗 w3schools Tutorial"
+  },
+  {
+    "objectID": "python/lessons/basics3.html#project-1-band-name-generator",
+    "href": "python/lessons/basics3.html#project-1-band-name-generator",
+    "title": "Week 3: Python Basics III",
+    "section": "🎸 Project 1: Band Name Generator",
+    "text": "🎸 Project 1: Band Name Generator\n\n📝 Die Aufgabe💡 Die Lösung\n\n\nErstelle einen Bandnamen-Generator, der Benutzereingaben verarbeitet.\n\nErstelle eine Begrüßung für dein Programm.\nFrage den Nutzer nach der Stadt, in der er aufgewachsen ist.\nFrage den Nutzer nach dem Namen seines ersten Haustiers.\nKombiniere die Namen der Stadt und des Haustiers und zeige ihnen ihren Bandnamen an.\n\n\n\nprint(\"Welcome to the Band Name Generator.\")\ncity = input(\"What's the name of the city you grew up in?\\n\")\npet = input(\"What's your pet's name?\\n\")\nprint(\"Your band name could be \" + city + \" \" + pet)"
+  },
+  {
+    "objectID": "python/lessons/basics3.html#material",
+    "href": "python/lessons/basics3.html#material",
+    "title": "Week 3: Python Basics III",
+    "section": "📥 Material",
+    "text": "📥 Material\n\n\n\n📽️ Introductory Slides\n\n\n🔗 w3schools Tutorial"
+  },
+  {
+    "objectID": "python/lessons/pandas1.html#project-1-band-name-generator",
+    "href": "python/lessons/pandas1.html#project-1-band-name-generator",
+    "title": "Week 5: Pandas I",
+    "section": "🎸 Project 1: Band Name Generator",
+    "text": "🎸 Project 1: Band Name Generator\n\n📝 Die Aufgabe💡 Die Lösung\n\n\nErstelle einen Bandnamen-Generator, der Benutzereingaben verarbeitet.\n\nErstelle eine Begrüßung für dein Programm.\nFrage den Nutzer nach der Stadt, in der er aufgewachsen ist.\nFrage den Nutzer nach dem Namen seines ersten Haustiers.\nKombiniere die Namen der Stadt und des Haustiers und zeige ihnen ihren Bandnamen an.\n\n\n\nprint(\"Welcome to the Band Name Generator.\")\ncity = input(\"What's the name of the city you grew up in?\\n\")\npet = input(\"What's your pet's name?\\n\")\nprint(\"Your band name could be \" + city + \" \" + pet)"
+  },
+  {
+    "objectID": "python/lessons/pandas1.html#material",
+    "href": "python/lessons/pandas1.html#material",
+    "title": "Week 5: Pandas I",
+    "section": "📥 Material",
+    "text": "📥 Material\n\n\n\n📽️ Introductory Slides\n\n\n🔗 w3schools Tutorial"
+  },
+  {
+    "objectID": "python/lessons/QA_SampleExam.html#project-1-band-name-generator",
+    "href": "python/lessons/QA_SampleExam.html#project-1-band-name-generator",
+    "title": "Week 9: Q&A and Sample Exam",
+    "section": "🎸 Project 1: Band Name Generator",
+    "text": "🎸 Project 1: Band Name Generator\n\n📝 Die Aufgabe💡 Die Lösung\n\n\nErstelle einen Bandnamen-Generator, der Benutzereingaben verarbeitet.\n\nErstelle eine Begrüßung für dein Programm.\nFrage den Nutzer nach der Stadt, in der er aufgewachsen ist.\nFrage den Nutzer nach dem Namen seines ersten Haustiers.\nKombiniere die Namen der Stadt und des Haustiers und zeige ihnen ihren Bandnamen an.\n\n\n\nprint(\"Welcome to the Band Name Generator.\")\ncity = input(\"What's the name of the city you grew up in?\\n\")\npet = input(\"What's your pet's name?\\n\")\nprint(\"Your band name could be \" + city + \" \" + pet)"
+  },
+  {
+    "objectID": "python/lessons/QA_SampleExam.html#material",
+    "href": "python/lessons/QA_SampleExam.html#material",
+    "title": "Week 9: Q&A and Sample Exam",
+    "section": "📥 Material",
+    "text": "📥 Material\n\n\n\n📽️ Introductory Slides\n\n\n🔗 w3schools Tutorial"
+  },
+  {
+    "objectID": "python/lessons/WrapUp_Refresher.html#project-1-band-name-generator",
+    "href": "python/lessons/WrapUp_Refresher.html#project-1-band-name-generator",
+    "title": "Week 8: Wrap-Up & Refresher",
+    "section": "🎸 Project 1: Band Name Generator",
+    "text": "🎸 Project 1: Band Name Generator\n\n📝 Die Aufgabe💡 Die Lösung\n\n\nErstelle einen Bandnamen-Generator, der Benutzereingaben verarbeitet.\n\nErstelle eine Begrüßung für dein Programm.\nFrage den Nutzer nach der Stadt, in der er aufgewachsen ist.\nFrage den Nutzer nach dem Namen seines ersten Haustiers.\nKombiniere die Namen der Stadt und des Haustiers und zeige ihnen ihren Bandnamen an.\n\n\n\nprint(\"Welcome to the Band Name Generator.\")\ncity = input(\"What's the name of the city you grew up in?\\n\")\npet = input(\"What's your pet's name?\\n\")\nprint(\"Your band name could be \" + city + \" \" + pet)"
+  },
+  {
+    "objectID": "python/lessons/WrapUp_Refresher.html#material",
+    "href": "python/lessons/WrapUp_Refresher.html#material",
+    "title": "Week 8: Wrap-Up & Refresher",
+    "section": "📥 Material",
+    "text": "📥 Material\n\n\n\n📽️ Introductory Slides\n\n\n🔗 w3schools Tutorial"
+  },
+  {
+    "objectID": "python/lessons/08Visualisations.html#project-1-band-name-generator",
+    "href": "python/lessons/08Visualisations.html#project-1-band-name-generator",
+    "title": "Week 7: Visualisations",
+    "section": "🎸 Project 1: Band Name Generator",
+    "text": "🎸 Project 1: Band Name Generator\n\n📝 Die Aufgabe💡 Die Lösung\n\n\nErstelle einen Bandnamen-Generator, der Benutzereingaben verarbeitet.\n\nErstelle eine Begrüßung für dein Programm.\nFrage den Nutzer nach der Stadt, in der er aufgewachsen ist.\nFrage den Nutzer nach dem Namen seines ersten Haustiers.\nKombiniere die Namen der Stadt und des Haustiers und zeige ihnen ihren Bandnamen an.\n\n\n\nprint(\"Welcome to the Band Name Generator.\")\ncity = input(\"What's the name of the city you grew up in?\\n\")\npet = input(\"What's your pet's name?\\n\")\nprint(\"Your band name could be \" + city + \" \" + pet)"
+  },
+  {
+    "objectID": "python/lessons/08Visualisations.html#material",
+    "href": "python/lessons/08Visualisations.html#material",
+    "title": "Week 7: Visualisations",
+    "section": "📥 Material",
+    "text": "📥 Material\n\n\n\n📽️ Introductory Slides\n\n\n🔗 w3schools Tutorial"
+  },
+  {
+    "objectID": "python/lessons/06pandas2.html#project-1-band-name-generator",
+    "href": "python/lessons/06pandas2.html#project-1-band-name-generator",
+    "title": "Week 6: Pandas II",
+    "section": "🎸 Project 1: Band Name Generator",
+    "text": "🎸 Project 1: Band Name Generator\n\n📝 Die Aufgabe💡 Die Lösung\n\n\nErstelle einen Bandnamen-Generator, der Benutzereingaben verarbeitet.\n\nErstelle eine Begrüßung für dein Programm.\nFrage den Nutzer nach der Stadt, in der er aufgewachsen ist.\nFrage den Nutzer nach dem Namen seines ersten Haustiers.\nKombiniere die Namen der Stadt und des Haustiers und zeige ihnen ihren Bandnamen an.\n\n\n\nprint(\"Welcome to the Band Name Generator.\")\ncity = input(\"What's the name of the city you grew up in?\\n\")\npet = input(\"What's your pet's name?\\n\")\nprint(\"Your band name could be \" + city + \" \" + pet)"
+  },
+  {
+    "objectID": "python/lessons/06pandas2.html#material",
+    "href": "python/lessons/06pandas2.html#material",
+    "title": "Week 6: Pandas II",
+    "section": "📥 Material",
+    "text": "📥 Material\n\n\n\n📽️ Introductory Slides\n\n\n🔗 w3schools Tutorial"
+  },
+  {
+    "objectID": "python/lessons/04basics4.html#project-1-band-name-generator",
+    "href": "python/lessons/04basics4.html#project-1-band-name-generator",
+    "title": "Week 4: Python Basics IV",
+    "section": "🎸 Project 1: Band Name Generator",
+    "text": "🎸 Project 1: Band Name Generator\n\n📝 Die Aufgabe💡 Die Lösung\n\n\nErstelle einen Bandnamen-Generator, der Benutzereingaben verarbeitet.\n\nErstelle eine Begrüßung für dein Programm.\nFrage den Nutzer nach der Stadt, in der er aufgewachsen ist.\nFrage den Nutzer nach dem Namen seines ersten Haustiers.\nKombiniere die Namen der Stadt und des Haustiers und zeige ihnen ihren Bandnamen an.\n\n\n\nprint(\"Welcome to the Band Name Generator.\")\ncity = input(\"What's the name of the city you grew up in?\\n\")\npet = input(\"What's your pet's name?\\n\")\nprint(\"Your band name could be \" + city + \" \" + pet)"
+  },
+  {
+    "objectID": "python/lessons/04basics4.html#material",
+    "href": "python/lessons/04basics4.html#material",
+    "title": "Week 4: Python Basics IV",
+    "section": "📥 Material",
+    "text": "📥 Material\n\n\n\n📽️ Introductory Slides\n\n\n🔗 w3schools Tutorial"
+  },
+  {
+    "objectID": "python/lessons/02basics2.html#project-1-band-name-generator",
+    "href": "python/lessons/02basics2.html#project-1-band-name-generator",
+    "title": "Week 2: Python Basics II",
+    "section": "🎸 Project 1: Band Name Generator",
+    "text": "🎸 Project 1: Band Name Generator\n\n📝 Die Aufgabe💡 Die Lösung\n\n\nErstelle einen Bandnamen-Generator, der Benutzereingaben verarbeitet.\n\nErstelle eine Begrüßung für dein Programm.\nFrage den Nutzer nach der Stadt, in der er aufgewachsen ist.\nFrage den Nutzer nach dem Namen seines ersten Haustiers.\nKombiniere die Namen der Stadt und des Haustiers und zeige ihnen ihren Bandnamen an.\n\n\n\nprint(\"Welcome to the Band Name Generator.\")\ncity = input(\"What's the name of the city you grew up in?\\n\")\npet = input(\"What's your pet's name?\\n\")\nprint(\"Your band name could be \" + city + \" \" + pet)"
+  },
+  {
+    "objectID": "python/lessons/02basics2.html#material",
+    "href": "python/lessons/02basics2.html#material",
+    "title": "Week 2: Python Basics II",
+    "section": "Material",
+    "text": "Material\n\n\n\nGitHub Repo\n\n\nw3schools Tutorial"
+  },
+  {
+    "objectID": "python/lessons/01basics1.html#project-1-band-name-generator",
+    "href": "python/lessons/01basics1.html#project-1-band-name-generator",
+    "title": "Week 1: Python Basics I",
+    "section": "Project 1: Band Name Generator",
+    "text": "Project 1: Band Name Generator\n\n📝 Die Aufgabe💡 Die Lösung\n\n\nErstelle einen Bandnamen-Generator, der Benutzereingaben verarbeitet.\n\nErstelle eine Begrüßung für dein Programm.\nFrage den Nutzer nach der Stadt, in der er aufgewachsen ist.\nFrage den Nutzer nach dem Namen seines ersten Haustiers.\nKombiniere die Namen der Stadt und des Haustiers und zeige ihnen ihren Bandnamen an.\n\n\n\nprint(\"Welcome to the Band Name Generator.\")\ncity = input(\"What's the name of the city you grew up in?\\n\")\npet = input(\"What's your pet's name?\\n\")\nprint(\"Your band name could be \" + city + \" \" + pet)"
+  },
+  {
+    "objectID": "python/lessons/01basics1.html#material",
+    "href": "python/lessons/01basics1.html#material",
+    "title": "Week 1: Python Basics I",
+    "section": "Material",
+    "text": "Material\n\n\n\nGitHub Repo\n\n\nw3schools Tutorial"
+  },
+  {
+    "objectID": "python/lessons/03basics3.html#project-1-band-name-generator",
+    "href": "python/lessons/03basics3.html#project-1-band-name-generator",
+    "title": "Week 3: Python Basics III",
+    "section": "🎸 Project 1: Band Name Generator",
+    "text": "🎸 Project 1: Band Name Generator\n\n📝 Die Aufgabe💡 Die Lösung\n\n\nErstelle einen Bandnamen-Generator, der Benutzereingaben verarbeitet.\n\nErstelle eine Begrüßung für dein Programm.\nFrage den Nutzer nach der Stadt, in der er aufgewachsen ist.\nFrage den Nutzer nach dem Namen seines ersten Haustiers.\nKombiniere die Namen der Stadt und des Haustiers und zeige ihnen ihren Bandnamen an.\n\n\n\nprint(\"Welcome to the Band Name Generator.\")\ncity = input(\"What's the name of the city you grew up in?\\n\")\npet = input(\"What's your pet's name?\\n\")\nprint(\"Your band name could be \" + city + \" \" + pet)"
+  },
+  {
+    "objectID": "python/lessons/03basics3.html#material",
+    "href": "python/lessons/03basics3.html#material",
+    "title": "Week 3: Python Basics III",
+    "section": "📥 Material",
+    "text": "📥 Material\n\n\n\n📽️ Introductory Slides\n\n\n🔗 w3schools Tutorial"
+  },
+  {
+    "objectID": "python/lessons/05pandas1.html#project-1-band-name-generator",
+    "href": "python/lessons/05pandas1.html#project-1-band-name-generator",
+    "title": "Week 5: Pandas I",
+    "section": "🎸 Project 1: Band Name Generator",
+    "text": "🎸 Project 1: Band Name Generator\n\n📝 Die Aufgabe💡 Die Lösung\n\n\nErstelle einen Bandnamen-Generator, der Benutzereingaben verarbeitet.\n\nErstelle eine Begrüßung für dein Programm.\nFrage den Nutzer nach der Stadt, in der er aufgewachsen ist.\nFrage den Nutzer nach dem Namen seines ersten Haustiers.\nKombiniere die Namen der Stadt und des Haustiers und zeige ihnen ihren Bandnamen an.\n\n\n\nprint(\"Welcome to the Band Name Generator.\")\ncity = input(\"What's the name of the city you grew up in?\\n\")\npet = input(\"What's your pet's name?\\n\")\nprint(\"Your band name could be \" + city + \" \" + pet)"
+  },
+  {
+    "objectID": "python/lessons/05pandas1.html#material",
+    "href": "python/lessons/05pandas1.html#material",
+    "title": "Week 5: Pandas I",
+    "section": "📥 Material",
+    "text": "📥 Material\n\n\n\n📽️ Introductory Slides\n\n\n🔗 w3schools Tutorial"
+  },
+  {
+    "objectID": "python/lessons/07QA_SampleExam.html#project-1-band-name-generator",
+    "href": "python/lessons/07QA_SampleExam.html#project-1-band-name-generator",
+    "title": "Week 9: Q&A and Sample Exam",
+    "section": "🎸 Project 1: Band Name Generator",
+    "text": "🎸 Project 1: Band Name Generator\n\n📝 Die Aufgabe💡 Die Lösung\n\n\nErstelle einen Bandnamen-Generator, der Benutzereingaben verarbeitet.\n\nErstelle eine Begrüßung für dein Programm.\nFrage den Nutzer nach der Stadt, in der er aufgewachsen ist.\nFrage den Nutzer nach dem Namen seines ersten Haustiers.\nKombiniere die Namen der Stadt und des Haustiers und zeige ihnen ihren Bandnamen an.\n\n\n\nprint(\"Welcome to the Band Name Generator.\")\ncity = input(\"What's the name of the city you grew up in?\\n\")\npet = input(\"What's your pet's name?\\n\")\nprint(\"Your band name could be \" + city + \" \" + pet)"
+  },
+  {
+    "objectID": "python/lessons/07QA_SampleExam.html#material",
+    "href": "python/lessons/07QA_SampleExam.html#material",
+    "title": "Week 9: Q&A and Sample Exam",
+    "section": "📥 Material",
+    "text": "📥 Material\n\n\n\n📽️ Introductory Slides\n\n\n🔗 w3schools Tutorial"
+  },
+  {
+    "objectID": "python/lessons/09WrapUp_Refresher.html#project-1-band-name-generator",
+    "href": "python/lessons/09WrapUp_Refresher.html#project-1-band-name-generator",
+    "title": "Week 8: Wrap-Up & Refresher",
+    "section": "🎸 Project 1: Band Name Generator",
+    "text": "🎸 Project 1: Band Name Generator\n\n📝 Die Aufgabe💡 Die Lösung\n\n\nErstelle einen Bandnamen-Generator, der Benutzereingaben verarbeitet.\n\nErstelle eine Begrüßung für dein Programm.\nFrage den Nutzer nach der Stadt, in der er aufgewachsen ist.\nFrage den Nutzer nach dem Namen seines ersten Haustiers.\nKombiniere die Namen der Stadt und des Haustiers und zeige ihnen ihren Bandnamen an.\n\n\n\nprint(\"Welcome to the Band Name Generator.\")\ncity = input(\"What's the name of the city you grew up in?\\n\")\npet = input(\"What's your pet's name?\\n\")\nprint(\"Your band name could be \" + city + \" \" + pet)"
+  },
+  {
+    "objectID": "python/lessons/09WrapUp_Refresher.html#material",
+    "href": "python/lessons/09WrapUp_Refresher.html#material",
+    "title": "Week 8: Wrap-Up & Refresher",
+    "section": "📥 Material",
+    "text": "📥 Material\n\n\n\n📽️ Introductory Slides\n\n\n🔗 w3schools Tutorial"
+  },
+  {
+    "objectID": "python/lessons/08WrapUp_Refresher.html#project-1-band-name-generator",
+    "href": "python/lessons/08WrapUp_Refresher.html#project-1-band-name-generator",
+    "title": "Week 8: Wrap-Up & Refresher",
+    "section": "🎸 Project 1: Band Name Generator",
+    "text": "🎸 Project 1: Band Name Generator\n\n📝 Die Aufgabe💡 Die Lösung\n\n\nErstelle einen Bandnamen-Generator, der Benutzereingaben verarbeitet.\n\nErstelle eine Begrüßung für dein Programm.\nFrage den Nutzer nach der Stadt, in der er aufgewachsen ist.\nFrage den Nutzer nach dem Namen seines ersten Haustiers.\nKombiniere die Namen der Stadt und des Haustiers und zeige ihnen ihren Bandnamen an.\n\n\n\nprint(\"Welcome to the Band Name Generator.\")\ncity = input(\"What's the name of the city you grew up in?\\n\")\npet = input(\"What's your pet's name?\\n\")\nprint(\"Your band name could be \" + city + \" \" + pet)"
+  },
+  {
+    "objectID": "python/lessons/08WrapUp_Refresher.html#material",
+    "href": "python/lessons/08WrapUp_Refresher.html#material",
+    "title": "Week 8: Wrap-Up & Refresher",
+    "section": "📥 Material",
+    "text": "📥 Material\n\n\n\n📽️ Introductory Slides\n\n\n🔗 w3schools Tutorial"
+  },
+  {
+    "objectID": "python/lessons/07Visualisations.html#project-1-band-name-generator",
+    "href": "python/lessons/07Visualisations.html#project-1-band-name-generator",
+    "title": "Week 7: Visualisations",
+    "section": "🎸 Project 1: Band Name Generator",
+    "text": "🎸 Project 1: Band Name Generator\n\n📝 Die Aufgabe💡 Die Lösung\n\n\nErstelle einen Bandnamen-Generator, der Benutzereingaben verarbeitet.\n\nErstelle eine Begrüßung für dein Programm.\nFrage den Nutzer nach der Stadt, in der er aufgewachsen ist.\nFrage den Nutzer nach dem Namen seines ersten Haustiers.\nKombiniere die Namen der Stadt und des Haustiers und zeige ihnen ihren Bandnamen an.\n\n\n\nprint(\"Welcome to the Band Name Generator.\")\ncity = input(\"What's the name of the city you grew up in?\\n\")\npet = input(\"What's your pet's name?\\n\")\nprint(\"Your band name could be \" + city + \" \" + pet)"
+  },
+  {
+    "objectID": "python/lessons/07Visualisations.html#material",
+    "href": "python/lessons/07Visualisations.html#material",
+    "title": "Week 7: Visualisations",
+    "section": "📥 Material",
+    "text": "📥 Material\n\n\n\n📽️ Introductory Slides\n\n\n🔗 w3schools Tutorial"
+  },
+  {
+    "objectID": "python/lessons/09QA_SampleExam.html#project-1-band-name-generator",
+    "href": "python/lessons/09QA_SampleExam.html#project-1-band-name-generator",
+    "title": "Week 9: Q&A and Sample Exam",
+    "section": "🎸 Project 1: Band Name Generator",
+    "text": "🎸 Project 1: Band Name Generator\n\n📝 Die Aufgabe💡 Die Lösung\n\n\nErstelle einen Bandnamen-Generator, der Benutzereingaben verarbeitet.\n\nErstelle eine Begrüßung für dein Programm.\nFrage den Nutzer nach der Stadt, in der er aufgewachsen ist.\nFrage den Nutzer nach dem Namen seines ersten Haustiers.\nKombiniere die Namen der Stadt und des Haustiers und zeige ihnen ihren Bandnamen an.\n\n\n\nprint(\"Welcome to the Band Name Generator.\")\ncity = input(\"What's the name of the city you grew up in?\\n\")\npet = input(\"What's your pet's name?\\n\")\nprint(\"Your band name could be \" + city + \" \" + pet)"
+  },
+  {
+    "objectID": "python/lessons/09QA_SampleExam.html#material",
+    "href": "python/lessons/09QA_SampleExam.html#material",
+    "title": "Week 9: Q&A and Sample Exam",
+    "section": "📥 Material",
+    "text": "📥 Material\n\n\n\n📽️ Introductory Slides\n\n\n🔗 w3schools Tutorial"
+  },
+  {
+    "objectID": "python/lessons/02basics2.html#project-2-love-calculator",
+    "href": "python/lessons/02basics2.html#project-2-love-calculator",
+    "title": "Week 2: Python Basics II",
+    "section": "Project 2: Love Calculator",
+    "text": "Project 2: Love Calculator\n\n📝 Die Aufgabe💡 Die Lösung\n\n\nTask Everyone knows the love calculators from the internet. You input two names and get a love score. Today you will code your own love calculator. You can be creative and make it all alone with your own creativity or you can use the this template:\nname1 = your name name2 = their name combined_string = name1 + name2 # convert it to all lowercase\nt = number of t’s in combined_string r = number of r’s in combined_string u = … e = … first_digit = t + r + u + e\n… second_digit = l + o + v + e\nlove_score = string represantion of first_digit + string representation of second_digit\nif the love score is under 10 or greater than 90 then print the score and the phrase “you go together like coke and mentos” if the love is between inclusive 40 and inclusive 50 then print the score and the phrase “you are mid together” if the love score is 69 then print the score and the phrase “you are like ying and yang” else print the score and the phrase “you are like bonnie and clyde”\n\n\nprint(\"Welcome to the Love Calculator!\")\n\nname1 = input(\"Input the first name: \")\nname2 = input(\"Input the second name: \")\ncombined_name = (name1 + name2).lower()\n\nfirst_digit = combined_name.count(\"t\") + combined_name.count(\"r\") + combined_name.count(\"u\") + combined_name.count(\"e\")\nsecond_digit = combined_name.count(\"l\") + combined_name.count(\"o\") + combined_name.count(\"v\") + combined_name.count(\"e\")\nlove_score = int(str(first_digit) + str(second_digit))\n\nif love_score &lt; 10 or love_score &gt; 90:\n    print(f\"Your love score is {love_score}%, you go together like coca cola and mentos.\")\nelif love_score &gt;= 40 and love_score &lt;= 50:\n    print(f\"Your love score is {love_score}%, you are mid together.\")\nelif love_score == 69:\n    print(f\"Your love score is {love_score}%, you are like ying and yang.\")    \nelse:\n    print(f\"Your love score is {love_score}%, you are like bonnie and clyde.\")"
+  },
+  {
+    "objectID": "python/lessons/03basics3.html#project-2-love-calculator",
+    "href": "python/lessons/03basics3.html#project-2-love-calculator",
+    "title": "Week 2: Python Basics II",
+    "section": "Project 2: Love Calculator",
+    "text": "Project 2: Love Calculator\n\n📝 Die Aufgabe💡 Die Lösung\n\n\nEveryone knows the love calculators from the internet. You input two names and get a love score. Today you will code your own love calculator. You can be creative and make it all alone with your own creativity or you can use the this template:\nname1 = your name name2 = their name combined_string = name1 + name2 # convert it to all lowercase\nt = number of t’s in combined_string r = number of r’s in combined_string u = … e = … first_digit = t + r + u + e\n… second_digit = l + o + v + e\nlove_score = string represantion of first_digit + string representation of second_digit\nif the love score is under 10 or greater than 90 then print the score and the phrase “you go together like coke and mentos” if the love is between inclusive 40 and inclusive 50 then print the score and the phrase “you are mid together” if the love score is 69 then print the score and the phrase “you are like ying and yang” else print the score and the phrase “you are like bonnie and clyde”\n\n\nprint(\"Welcome to the Love Calculator!\")\n\nname1 = input(\"Input the first name: \")\nname2 = input(\"Input the second name: \")\ncombined_name = (name1 + name2).lower()\n\nfirst_digit = combined_name.count(\"t\") + combined_name.count(\"r\") + combined_name.count(\"u\") + combined_name.count(\"e\")\nsecond_digit = combined_name.count(\"l\") + combined_name.count(\"o\") + combined_name.count(\"v\") + combined_name.count(\"e\")\nlove_score = int(str(first_digit) + str(second_digit))\n\nif love_score &lt; 10 or love_score &gt; 90:\n    print(f\"Your love score is {love_score}%, you go together like coca cola and mentos.\")\nelif love_score &gt;= 40 and love_score &lt;= 50:\n    print(f\"Your love score is {love_score}%, you are mid together.\")\nelif love_score == 69:\n    print(f\"Your love score is {love_score}%, you are like ying and yang.\")    \nelse:\n    print(f\"Your love score is {love_score}%, you are like bonnie and clyde.\")"
+  },
+  {
+    "objectID": "python/lessons/03basics3.html#project-3-random-number-guesser",
+    "href": "python/lessons/03basics3.html#project-3-random-number-guesser",
+    "title": "Week 3: Python Basics III",
+    "section": "Project 3: Random Number Guesser",
+    "text": "Project 3: Random Number Guesser\n\n📝 Die Aufgabe💡 Die Lösung\n\n\nYour task is to code the number guesser game. You should generate a random number and the user has to guess until they guess the number.\nToDo’s:\nInitialize a random number Create a loop which should loop until the number is guessed Ask the user for their guess If the guessed number equals the actual number then print “Hurraaa you won! GUESSED_NUMBER was the corret guess.” If the guessed number is larger than the actual number then print “Go lower!” If the guessed number is smaller than the actual number then print “Go higher!” Optional:\nYou can implement lives so the user has to guess the guess number within given lives Give the user the chance to play again if they guessed the correct number\n\n\nimport random\n\nnum = random.randrange(0,100)\n\nnumber_guessed = False\n\nwhile not number_guessed:\n    guess = int(input(\"Guess a number between 0 and 100: \"))\n    if guess == num:\n        print(f\"Hurraaa you won! {guess} was the corret guess.\")\n        play_again = input(\"Do you want to play again? (y/n): \")\n        if play_again == \"y\": \n            num = random.randrange(0,100)\n        else:\n            number_guessed = True\n    elif guess &gt; num:\n        print(\"Go lower!\")\n    else:\n        print(\"Go higher!\")"
   }
 ]

@@ -1,5 +1,6 @@
 ---
 title: ""
+image: "../../images/py_kurs_cover05.png"
 toc: true
 toc-depth: 3
 page-layout: full
@@ -12,7 +13,7 @@ page-layout: full
 [🐍 Python Overview](../index.qmd){.btn .btn-outline-secondary .btn-sm}
 :::
 
-# Week 1: Python Basics I
+# Week 5: Pandas I
 *The foundation of your Python journey.*
 
 ::: {layout-ncol=1}
@@ -58,4 +59,3 @@ print("Your band name could be " + city + " " + pet)
 
 [🔗 w3schools Tutorial](https://www.w3schools.com/python/){.btn .btn-outline-primary .btn-lg .w-100}
 :::
-
