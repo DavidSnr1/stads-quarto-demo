@@ -139,3 +139,17 @@
     width: 100% !important; /* Volle Breite des Bildschirms minus Padding */
   }
 }
+
+/* Zentriert alle h2-Titel innerhalb einer Karte */
+.card h2 {
+  text-align: center;
+  width: 100%; /* Stellt sicher, dass die Zentrierung über die volle Breite wirkt */
+  margin-left: auto;
+  margin-right: auto;
+  display: block; /* Erzwingt eine eigene Zeile für den Titel */
+}
+
+/* Optional: Zwingt auch den gesamten Textkörper der Karte zur Zentrierung */
+.card-body {
+  text-align: center;
+}
